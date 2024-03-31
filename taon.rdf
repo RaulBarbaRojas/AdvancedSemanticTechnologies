@@ -2,15 +2,27 @@
 <rdf:RDF xmlns="http://www.semanticweb.org/usuario/ontologies/2024/2/taon/"
      xml:base="http://www.semanticweb.org/usuario/ontologies/2024/2/taon/"
      xmlns:dc="http://purl.org/dc/elements/1.1/"
-     xmlns:ns="http://www.w3.org/2003/06/sw-vocab-status/ns#"
+     xmlns:ns="http://creativecommons.org/ns#"
+     xmlns:v1="http://www.loc.gov/mads/rdf/v1#"
+     xmlns:ns1="http://www.w3.org/2003/06/sw-vocab-status/ns#"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:wot="http://xmlns.com/wot/0.1/"
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:dcam="http://purl.org/dc/dcam/"
      xmlns:foaf="http://xmlns.com/foaf/0.1/"
-     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+     xmlns:vann="http://purl.org/vocab/vann/"
+     xmlns:terms="http://purl.org/dc/terms/"
+     xmlns:ontolex="http://www.w3.org/ns/lemon/ontolex#"
+     xmlns:vartrans="http://www.w3.org/ns/lemon/vartrans#">
     <owl:Ontology rdf:about="http://www.semanticweb.org/usuario/ontologies/2024/2/taon">
+        <owl:imports rdf:resource="http://id.loc.gov/vocabulary/iso639-2"/>
+        <owl:imports rdf:resource="http://purl.org/dc/terms/"/>
+        <owl:imports rdf:resource="http://www.w3.org/ns/lemon/ontolex"/>
+        <owl:imports rdf:resource="http://www.w3.org/ns/lemon/vartrans"/>
         <owl:imports rdf:resource="http://xmlns.com/foaf/0.1/"/>
         <rdfs:comment xml:lang="en">This work is licensed under the Creative Commons Attribution 4.0 International License. To view a copy of this license, visit http://creativecommons.org/licenses/by/4.0/ or send a letter to Creative Commons, PO Box 1866, Mountain View, CA 94042, USA.</rdfs:comment>
     </owl:Ontology>
@@ -206,6 +218,94 @@
         <rdfs:label xml:lang="es">Evento de Cata Vertical</rdfs:label>
         <rdfs:label xml:lang="en">Vertical Tasting Event</rdfs:label>
     </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/usuario/ontologies/2024/2/taon#lexicalEntryTastingEN -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/usuario/ontologies/2024/2/taon#lexicalEntryTastingEN">
+        <rdf:type rdf:resource="http://www.w3.org/ns/lemon/ontolex#LexicalEntry"/>
+        <ontolex:lexicalForm rdf:resource="http://www.semanticweb.org/usuario/ontologies/2024/2/taon#lexicalFormTastingEN"/>
+        <ontolex:sense rdf:resource="http://www.semanticweb.org/usuario/ontologies/2024/2/taon#lexicalSenseTastingEN"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/usuario/ontologies/2024/2/taon#lexicalEntryTastingES -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/usuario/ontologies/2024/2/taon#lexicalEntryTastingES">
+        <rdf:type rdf:resource="http://www.w3.org/ns/lemon/ontolex#LexicalEntry"/>
+        <ontolex:lexicalForm rdf:resource="http://www.semanticweb.org/usuario/ontologies/2024/2/taon#lexicalFormTastingES"/>
+        <ontolex:sense rdf:resource="http://www.semanticweb.org/usuario/ontologies/2024/2/taon#lexicalSenseTastingES"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/usuario/ontologies/2024/2/taon#lexicalFormTastingEN -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/usuario/ontologies/2024/2/taon#lexicalFormTastingEN">
+        <rdf:type rdf:resource="http://www.w3.org/ns/lemon/ontolex#Form"/>
+        <ontolex:writtenRep xml:lang="en">Tasting</ontolex:writtenRep>
+        <dc:language rdf:resource="http://id.loc.gov/vocabulary/iso639-2/eng"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/usuario/ontologies/2024/2/taon#lexicalFormTastingES -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/usuario/ontologies/2024/2/taon#lexicalFormTastingES">
+        <rdf:type rdf:resource="http://www.w3.org/ns/lemon/ontolex#Form"/>
+        <ontolex:writtenRep xml:lang="es">Cata</ontolex:writtenRep>
+        <dc:language rdf:resource="http://id.loc.gov/vocabulary/iso639-2/spa"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/usuario/ontologies/2024/2/taon#lexicalSenseTastingEN -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/usuario/ontologies/2024/2/taon#lexicalSenseTastingEN">
+        <rdf:type rdf:resource="http://www.w3.org/ns/lemon/ontolex#LexicalSense"/>
+        <ontolex:reference rdf:resource="http://www.semanticweb.org/usuario/ontologies/2024/2/taon#tastingConcept"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/usuario/ontologies/2024/2/taon#lexicalSenseTastingES -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/usuario/ontologies/2024/2/taon#lexicalSenseTastingES">
+        <rdf:type rdf:resource="http://www.w3.org/ns/lemon/ontolex#LexicalSense"/>
+        <ontolex:reference rdf:resource="http://www.semanticweb.org/usuario/ontologies/2024/2/taon#tastingConcept"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/usuario/ontologies/2024/2/taon#tastingConcept -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/usuario/ontologies/2024/2/taon#tastingConcept">
+        <rdf:type rdf:resource="http://www.semanticweb.org/usuario/ontologies/2024/2/taon#Tasting"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/usuario/ontologies/2024/2/taon#translationTasting -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/usuario/ontologies/2024/2/taon#translationTasting">
+        <rdf:type rdf:resource="http://www.w3.org/ns/lemon/vartrans#Translation"/>
+        <vartrans:source rdf:resource="http://www.semanticweb.org/usuario/ontologies/2024/2/taon#lexicalSenseTastingES"/>
+        <vartrans:target rdf:resource="http://www.semanticweb.org/usuario/ontologies/2024/2/taon#lexicalSenseTastingEN"/>
+        <dc:title xml:lang="en">Direct Equivalent</dc:title>
+    </owl:NamedIndividual>
 </rdf:RDF>
 
 
