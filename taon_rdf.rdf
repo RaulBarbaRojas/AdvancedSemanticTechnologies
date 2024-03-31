@@ -1,0 +1,214 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/usuario/ontologies/2024/2/taon/"
+     xml:base="http://www.semanticweb.org/usuario/ontologies/2024/2/taon/"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:ns="http://www.w3.org/2003/06/sw-vocab-status/ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:wot="http://xmlns.com/wot/0.1/"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:foaf="http://xmlns.com/foaf/0.1/"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/usuario/ontologies/2024/2/taon">
+        <owl:imports rdf:resource="http://xmlns.com/foaf/0.1/"/>
+        <rdfs:comment xml:lang="en">This work is licensed under the Creative Commons Attribution 4.0 International License. To view a copy of this license, visit http://creativecommons.org/licenses/by/4.0/ or send a letter to Creative Commons, PO Box 1866, Mountain View, CA 94042, USA.</rdfs:comment>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/usuario/ontologies/2024/2/taon#createdBy -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/usuario/ontologies/2024/2/taon#createdBy">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/usuario/ontologies/2024/2/taon#Tasting"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/usuario/ontologies/2024/2/taon#Producer"/>
+        <rdfs:comment xml:lang="en">A property to represent the &quot;created by&quot; property between a tasting object and its producer</rdfs:comment>
+        <rdfs:comment xml:lang="es">Una propiedad para representar la relación &quot;creado por&quot; entre una cata y el productor correspndiente</rdfs:comment>
+        <rdfs:label xml:lang="es">Creado por</rdfs:label>
+        <rdfs:label xml:lang="en">Created By</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/usuario/ontologies/2024/2/taon#evaluatedBy -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/usuario/ontologies/2024/2/taon#evaluatedBy">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/usuario/ontologies/2024/2/taon#Tasting"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/usuario/ontologies/2024/2/taon#Evaluator"/>
+        <rdfs:comment xml:lang="en">A property to indicate that an evaluator participates (as such) in a tasting event and, consequently, evaluates the tasting instances of that tasting event.</rdfs:comment>
+        <rdfs:comment xml:lang="es">Una propiedad para representar que un evaluador participa como tal en un evento de catas concreto, y, por tanto, evalúa todas las catas de dicho evento.</rdfs:comment>
+        <rdfs:label xml:lang="es">Evaluado por</rdfs:label>
+        <rdfs:label xml:lang="en">Evaluated By</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/usuario/ontologies/2024/2/taon#participates -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/usuario/ontologies/2024/2/taon#participates">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/usuario/ontologies/2024/2/taon#Tasting"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/usuario/ontologies/2024/2/taon#TastingEvent"/>
+        <rdfs:comment xml:lang="en">A property that represents the fact that a tasting object participates in a tasting event</rdfs:comment>
+        <rdfs:comment xml:lang="es">Una propiedad que representa la relación por la que una cata participa en un evento de catas</rdfs:comment>
+        <rdfs:label xml:lang="es">Participa</rdfs:label>
+        <rdfs:label xml:lang="en">Participates</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/usuario/ontologies/2024/2/taon#tastingEvaluation -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/usuario/ontologies/2024/2/taon#tastingEvaluation">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/usuario/ontologies/2024/2/taon#Tasting"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+        <rdfs:comment xml:lang="en">A property to represent the evaluation of a tasting object (with decimals if needed), which must be in the interval 0-100.</rdfs:comment>
+        <rdfs:comment xml:lang="es">Una propiedad para representar la evaluación de una cata, expresada como un porcentaje (con decimales si fuera necesario) entre 0 y 100.</rdfs:comment>
+        <rdfs:label xml:lang="es">Evaluación de cata</rdfs:label>
+        <rdfs:label xml:lang="en">Tasting Evaluation</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/usuario/ontologies/2024/2/taon#tastingName -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/usuario/ontologies/2024/2/taon#tastingName">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/usuario/ontologies/2024/2/taon#Tasting"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+        <rdfs:comment xml:lang="en">A property that allows to indicate the name of a tasting object</rdfs:comment>
+        <rdfs:comment xml:lang="es">Una propiedad que permite establecer el nombre de la cata</rdfs:comment>
+        <rdfs:label xml:lang="es">Nombre de cata</rdfs:label>
+        <rdfs:label xml:lang="en">Tasting name</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/usuario/ontologies/2024/2/taon#BlindTastingEvent -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/usuario/ontologies/2024/2/taon#BlindTastingEvent">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/usuario/ontologies/2024/2/taon#TastingEvent"/>
+        <rdfs:comment xml:lang="en">A class to represent the concept of a blind tasting event</rdfs:comment>
+        <rdfs:comment xml:lang="es">Una clase para representar el concepto de evento de cata a ciegas</rdfs:comment>
+        <rdfs:label xml:lang="en">Blind Tasting Event</rdfs:label>
+        <rdfs:label xml:lang="es">Evento de Cata A Ciegas</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/usuario/ontologies/2024/2/taon#Evaluator -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/usuario/ontologies/2024/2/taon#Evaluator">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/usuario/ontologies/2024/2/taon#Person"/>
+        <rdfs:comment xml:lang="en">A class that represents the person that evaluates tasting instances in a tasting event</rdfs:comment>
+        <rdfs:comment xml:lang="es">Una clase que representa a la persona que evalua catas en un evento de catas</rdfs:comment>
+        <rdfs:label xml:lang="es">Evaluador</rdfs:label>
+        <rdfs:label xml:lang="en">Evaluator</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/usuario/ontologies/2024/2/taon#HorizontalTastingEvent -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/usuario/ontologies/2024/2/taon#HorizontalTastingEvent">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/usuario/ontologies/2024/2/taon#TastingEvent"/>
+        <rdfs:comment xml:lang="en">A class to represent the concept of a horizontal tasting event</rdfs:comment>
+        <rdfs:comment xml:lang="es">Una clase para representar el concepto de evento de cata horizontal</rdfs:comment>
+        <rdfs:label xml:lang="es">Evento de Cata Horizontal</rdfs:label>
+        <rdfs:label xml:lang="en">Horizontal Tasting Event</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/usuario/ontologies/2024/2/taon#Person -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/usuario/ontologies/2024/2/taon#Person">
+        <owl:equivalentClass rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+        <rdfs:comment xml:lang="en">A class that represents the generic concept of a person.</rdfs:comment>
+        <rdfs:comment xml:lang="es">Una clase que representa el concepto genérico de Persona.</rdfs:comment>
+        <rdfs:label xml:lang="en">Person</rdfs:label>
+        <rdfs:label xml:lang="es">Persona</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/usuario/ontologies/2024/2/taon#Producer -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/usuario/ontologies/2024/2/taon#Producer">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/usuario/ontologies/2024/2/taon#Person"/>
+        <rdfs:comment xml:lang="en">A class that represents the person that creates a tasting instance.</rdfs:comment>
+        <rdfs:comment xml:lang="es">Una clase que representa a la persona que crea una instancia de cata.</rdfs:comment>
+        <rdfs:label xml:lang="en">Producer</rdfs:label>
+        <rdfs:label xml:lang="es">Productor</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/usuario/ontologies/2024/2/taon#Tasting -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/usuario/ontologies/2024/2/taon#Tasting">
+        <rdfs:comment xml:lang="en">A class that represents the concept of &quot;Tasting&quot;, also known as &quot;Sampling&quot; in certain parts of the world.</rdfs:comment>
+        <rdfs:comment xml:lang="es">Una clase creada para representar el concepto de &quot;cata&quot; en general.</rdfs:comment>
+        <rdfs:label xml:lang="es">Cata</rdfs:label>
+        <rdfs:label xml:lang="en">Tasting</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/usuario/ontologies/2024/2/taon#TastingEvent -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/usuario/ontologies/2024/2/taon#TastingEvent">
+        <rdfs:comment xml:lang="en">A class that represents the concept of a tasting event, where many tasting instances are created by producers and evaluated by evaluators.</rdfs:comment>
+        <rdfs:comment xml:lang="es">Una clase que representa el concepto de evento de catas, donde los productores crean numerosas catas, que son evaluadas por evaluadores.</rdfs:comment>
+        <rdfs:label xml:lang="es">Evento de Cata</rdfs:label>
+        <rdfs:label xml:lang="en">Tasting Event</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/usuario/ontologies/2024/2/taon#VerticalTastingEvent -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/usuario/ontologies/2024/2/taon#VerticalTastingEvent">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/usuario/ontologies/2024/2/taon#TastingEvent"/>
+        <rdfs:comment xml:lang="en">A class to represent the concept of a vertical tasting event</rdfs:comment>
+        <rdfs:comment xml:lang="es">Una clase para representar el concepto de evento de cata vertical</rdfs:comment>
+        <rdfs:label xml:lang="es">Evento de Cata Vertical</rdfs:label>
+        <rdfs:label xml:lang="en">Vertical Tasting Event</rdfs:label>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.26.2023-07-17T20:34:13Z) https://github.com/owlcs/owlapi -->
+
