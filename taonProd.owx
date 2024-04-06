@@ -1,0 +1,1225 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd">
+    <Prefix name="" IRI="http://www.semanticweb.org/usuario/ontologies/2024/3/untitled-ontology-27/"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Import>http://www.semanticweb.org/usuario/ontologies/2024/2/taon</Import>
+    <Declaration>
+        <Class IRI="#AbbeyBeer"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#AleBeer"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Beer"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Beverage"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#BlackTea"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#BlueCheese"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Cheese"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Chocolate"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Coffee"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DarkBeer"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DarkChocolate"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Food"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#FortifiedWine"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#FreshCheese"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#GreenCoffee"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#GreenTea"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#HardCheese"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#LagerBeer"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MilkChocolate"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OolongTea"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Product"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#RedTea"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#RedWine"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#RoastedCoffee"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#RoseWine"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SemiSoftCheese"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SoftCheese"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SparklingWine"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SweetWine"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Tea"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#WhiteChocolate"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#WhiteTea"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#WhiteWine"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Wine"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#YellowTea"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#acidity"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#alcoholDegree"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#aroma"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#body"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#caffeineContent"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#cocoaPercentage"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#colour"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#detailedColor"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#fatContent"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#flavour"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#humidityPercentage"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#processMethod"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#taninos"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#AbbeyBeer"/>
+        <Class IRI="#Beer"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AleBeer"/>
+        <Class IRI="#Beer"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Beer"/>
+        <Class IRI="#Beverage"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Beverage"/>
+        <Class IRI="#Product"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BlackTea"/>
+        <Class IRI="#Tea"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BlueCheese"/>
+        <Class IRI="#Cheese"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Cheese"/>
+        <Class IRI="#Food"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Chocolate"/>
+        <Class IRI="#Food"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Coffee"/>
+        <Class IRI="#Beverage"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DarkBeer"/>
+        <Class IRI="#Beer"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DarkChocolate"/>
+        <Class IRI="#Chocolate"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Food"/>
+        <Class IRI="#Product"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#FortifiedWine"/>
+        <Class IRI="#Wine"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#FreshCheese"/>
+        <Class IRI="#Cheese"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#GreenCoffee"/>
+        <Class IRI="#Coffee"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#GreenTea"/>
+        <Class IRI="#Tea"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#HardCheese"/>
+        <Class IRI="#Cheese"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#LagerBeer"/>
+        <Class IRI="#Beer"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MilkChocolate"/>
+        <Class IRI="#Chocolate"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OolongTea"/>
+        <Class IRI="#Tea"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#RedTea"/>
+        <Class IRI="#Tea"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#RedWine"/>
+        <Class IRI="#Wine"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#RoastedCoffee"/>
+        <Class IRI="#Coffee"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#RoseWine"/>
+        <Class IRI="#Wine"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SemiSoftCheese"/>
+        <Class IRI="#Cheese"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SoftCheese"/>
+        <Class IRI="#Cheese"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SparklingWine"/>
+        <Class IRI="#Wine"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SweetWine"/>
+        <Class IRI="#Wine"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Tea"/>
+        <Class IRI="#Beverage"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#WhiteChocolate"/>
+        <Class IRI="#Chocolate"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#WhiteTea"/>
+        <Class IRI="#Tea"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#WhiteWine"/>
+        <Class IRI="#Wine"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Wine"/>
+        <Class IRI="#Beverage"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#YellowTea"/>
+        <Class IRI="#Tea"/>
+    </SubClassOf>
+    <DataPropertyDomain>
+        <DataProperty IRI="#acidity"/>
+        <Class IRI="#Coffee"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#alcoholDegree"/>
+        <Class IRI="#Beverage"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#aroma"/>
+        <Class IRI="#Beverage"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#body"/>
+        <Class IRI="#Beverage"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#caffeineContent"/>
+        <Class IRI="#Coffee"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#cocoaPercentage"/>
+        <Class IRI="#Chocolate"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#colour"/>
+        <Class IRI="#Wine"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#detailedColor"/>
+        <Class IRI="#Chocolate"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#fatContent"/>
+        <Class IRI="#Cheese"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#flavour"/>
+        <Class IRI="#Beer"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#humidityPercentage"/>
+        <Class IRI="#Cheese"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#processMethod"/>
+        <Class IRI="#Tea"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#taninos"/>
+        <Class IRI="#Wine"/>
+    </DataPropertyDomain>
+    <DataPropertyRange>
+        <DataProperty IRI="#acidity"/>
+        <Datatype abbreviatedIRI="rdfs:Literal"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#alcoholDegree"/>
+        <Datatype abbreviatedIRI="xsd:float"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#aroma"/>
+        <Datatype abbreviatedIRI="rdfs:Literal"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#body"/>
+        <Datatype abbreviatedIRI="rdfs:Literal"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#caffeineContent"/>
+        <Datatype abbreviatedIRI="xsd:float"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#cocoaPercentage"/>
+        <Datatype abbreviatedIRI="xsd:float"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#colour"/>
+        <Datatype abbreviatedIRI="rdfs:Literal"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#detailedColor"/>
+        <Datatype abbreviatedIRI="rdfs:Literal"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#fatContent"/>
+        <Datatype abbreviatedIRI="xsd:double"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#flavour"/>
+        <Datatype abbreviatedIRI="rdfs:Literal"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#humidityPercentage"/>
+        <Datatype abbreviatedIRI="xsd:float"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#processMethod"/>
+        <Datatype abbreviatedIRI="rdfs:Literal"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#taninos"/>
+        <Datatype abbreviatedIRI="rdfs:Literal"/>
+    </DataPropertyRange>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#AbbeyBeer</IRI>
+        <Literal xml:lang="en">A class that represents the concept of abbey beer in the tasting domain</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#AbbeyBeer</IRI>
+        <Literal xml:lang="es">Una clase que representa el concepto de cerveza Abadía en el dominio de las catas</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#AbbeyBeer</IRI>
+        <Literal xml:lang="en">Abbey beer</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#AbbeyBeer</IRI>
+        <Literal>Cerveza Abadía</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#AleBeer</IRI>
+        <Literal xml:lang="en">A class that represents the concept of Ale beer in the tasting domain</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#AleBeer</IRI>
+        <Literal xml:lang="es">Una clase que representa el concepto de cerveza Ale en el dominio de las catas</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#AleBeer</IRI>
+        <Literal xml:lang="en">Ale beer</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#AleBeer</IRI>
+        <Literal xml:lang="es">Cerveza Ale</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Beer</IRI>
+        <Literal xml:lang="en">A class that represents the concept of beer in the tasting domain</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Beer</IRI>
+        <Literal xml:lang="es">Una clase que representa el concepto de cerveza en el dominio de las catas</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Beer</IRI>
+        <Literal xml:lang="en">Beer</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Beer</IRI>
+        <Literal xml:lang="es">Cerveza</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Beverage</IRI>
+        <Literal xml:lang="en">A class that represents beverage-related products involved in a tasting event, like wine or tea.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Beverage</IRI>
+        <Literal xml:lang="es">Una clase que representa productos basados en bebida implicados en eventos de cada, como el vino o el té.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Beverage</IRI>
+        <Literal xml:lang="es">Bebida</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Beverage</IRI>
+        <Literal xml:lang="en">Beverage</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#BlackTea</IRI>
+        <Literal xml:lang="en">A class that represents the concept of black tea in the tasting domain</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#BlackTea</IRI>
+        <Literal xml:lang="es">Una clase que representa el concepto de té negro en el dominio de las catas</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#BlackTea</IRI>
+        <Literal xml:lang="en">Black tea</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#BlackTea</IRI>
+        <Literal xml:lang="es">Té negro</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Coffee</IRI>
+        <Literal xml:lang="en">A class that represents the concept of coffee in the tasting domain</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Coffee</IRI>
+        <Literal xml:lang="es">Una clase que representa el concepto de café en el dominio de las catas</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Coffee</IRI>
+        <Literal xml:lang="es">Café</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Coffee</IRI>
+        <Literal xml:lang="en">Coffee</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#DarkBeer</IRI>
+        <Literal xml:lang="en">A class that represents the concept of dark beer in the tasting domain</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#DarkBeer</IRI>
+        <Literal xml:lang="es">Una clase que representa el concepto de cerveza negra en el dominio de las catas</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#DarkBeer</IRI>
+        <Literal xml:lang="es">Cerveza negra</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#DarkBeer</IRI>
+        <Literal xml:lang="en">Dark beer</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#DarkChocolate</IRI>
+        <Literal xml:lang="en">A class that represents the concept of dark chocolate in the tasting domain</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#DarkChocolate</IRI>
+        <Literal xml:lang="en">Una clase que representa el concepto de chocolate negro en el dominio de las catas</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#DarkChocolate</IRI>
+        <Literal xml:lang="es">Chocolate negro</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#DarkChocolate</IRI>
+        <Literal xml:lang="en">Dark chocolate</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Food</IRI>
+        <Literal xml:lang="en">A class that represents food-related products involved in tasting events, like cheese and chocolate.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Food</IRI>
+        <Literal xml:lang="es">Una clase que representa productos relacionados con comida implicados en un evento de catas, como el queso o el chocolate.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Food</IRI>
+        <Literal xml:lang="es">Comida</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Food</IRI>
+        <Literal xml:lang="en">Food</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#FortifiedWine</IRI>
+        <Literal xml:lang="en">A class that represents the concept of fortified wine in the tasting domain</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#FortifiedWine</IRI>
+        <Literal xml:lang="es">Una clase que representa el concepto de vino generoso en el dominio de las catas</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#FortifiedWine</IRI>
+        <Literal xml:lang="en">Fortified wine</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#FortifiedWine</IRI>
+        <Literal xml:lang="es">Vino generoso</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#GreenCoffee</IRI>
+        <Literal xml:lang="en">A class that represents the concept of green coffee in the tasting domain</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#GreenCoffee</IRI>
+        <Literal xml:lang="es">Una clase que representa el concepto de café verde en el dominio de las catas</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#GreenCoffee</IRI>
+        <Literal xml:lang="es">Café verde</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#GreenCoffee</IRI>
+        <Literal xml:lang="en">Green coffee</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#GreenTea</IRI>
+        <Literal xml:lang="en">A class that represents the concept of green tea in the tasting domain</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#GreenTea</IRI>
+        <Literal xml:lang="es">Una clase que representa el concepto de té verde en el dominio de las catas</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#GreenTea</IRI>
+        <Literal xml:lang="en">Green tea</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#GreenTea</IRI>
+        <Literal xml:lang="es">Té verde</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#LagerBeer</IRI>
+        <Literal xml:lang="en">A class that represents the concept of Lager beer in the tasting domain</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#LagerBeer</IRI>
+        <Literal xml:lang="es">Una clase que representa el concepto de cerveza Lager en el dominio de las catas</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#LagerBeer</IRI>
+        <Literal xml:lang="es">Cerveza Lager</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#LagerBeer</IRI>
+        <Literal xml:lang="en">Lager beer</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#MilkChocolate</IRI>
+        <Literal xml:lang="en">A class that represents the concept of milk chocolate in the tasting domain</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#MilkChocolate</IRI>
+        <Literal xml:lang="es">Una clase que representa el concepto de chocolate con leche en el dominio de las catas</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#MilkChocolate</IRI>
+        <Literal xml:lang="es">Chocolate con leche</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#MilkChocolate</IRI>
+        <Literal xml:lang="en">Milk chocolate</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#OolongTea</IRI>
+        <Literal xml:lang="en">A class that represents the concept of Oolong tea in the tasting domain</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#OolongTea</IRI>
+        <Literal xml:lang="es">Una clase que representa el concepto de té Oolong en el dominio de las catas</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OolongTea</IRI>
+        <Literal xml:lang="en">Oolong tea</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OolongTea</IRI>
+        <Literal xml:lang="es">Té Oolong</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Product</IRI>
+        <Literal xml:lang="en">A class to represent the concept of a product that is involved in a tasting (like wine or cheese).</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Product</IRI>
+        <Literal xml:lang="es">Una clase que representa el producto implicado en una cata (como el vino y el queso).</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Product</IRI>
+        <Literal xml:lang="en">Product</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Product</IRI>
+        <Literal xml:lang="es">Producto</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#RedTea</IRI>
+        <Literal xml:lang="en">A class that represents the concept of red tea in the tasting domain</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#RedTea</IRI>
+        <Literal xml:lang="es">Una clase que representa el concepto de té rojo en el dominio de las catas</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#RedTea</IRI>
+        <Literal xml:lang="en">Red tea</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#RedTea</IRI>
+        <Literal xml:lang="es">Té rojo</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#RedWine</IRI>
+        <Literal xml:lang="en">A class that represents the concept of red wine in the tasting domain</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#RedWine</IRI>
+        <Literal xml:lang="es">Una clase que representa el concepto de vino tinto en el dominio de las catas</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#RedWine</IRI>
+        <Literal xml:lang="en">Red wine</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#RedWine</IRI>
+        <Literal xml:lang="es">Vino tinto</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#RoastedCoffee</IRI>
+        <Literal xml:lang="en">A class that represents the concept of roasted coffee in the tasting domain</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#RoastedCoffee</IRI>
+        <Literal xml:lang="es">Una clase que representa el concepto de café tostado en el dominio de las catas</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#RoastedCoffee</IRI>
+        <Literal xml:lang="es">Café tostado</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#RoastedCoffee</IRI>
+        <Literal xml:lang="en">Roasted coffee</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#RoseWine</IRI>
+        <Literal xml:lang="en">A class that represents the concept of rose wine in the tasting domain</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#RoseWine</IRI>
+        <Literal xml:lang="es">Una clase que representa el concepto de vino rosado en el dominio de las catas</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#RoseWine</IRI>
+        <Literal xml:lang="en">Rose wine</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#RoseWine</IRI>
+        <Literal xml:lang="es">Vino rosado</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#SparklingWine</IRI>
+        <Literal xml:lang="en">A class that represents the concept of sparkling wine in the tasting domain</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#SparklingWine</IRI>
+        <Literal xml:lang="es">Una clase que representa el concepto de vino espumoso en el dominio de las catas</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#SparklingWine</IRI>
+        <Literal xml:lang="en">Sparkling wine</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#SparklingWine</IRI>
+        <Literal xml:lang="es">Vino espumoso</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#SweetWine</IRI>
+        <Literal xml:lang="en">A class that represents the concept of sweet wine in the tasting domain</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#SweetWine</IRI>
+        <Literal xml:lang="es">Una clase que representa el concepto de vino dulce en el dominio de las catas</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#SweetWine</IRI>
+        <Literal xml:lang="en">Sweet wine</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#SweetWine</IRI>
+        <Literal xml:lang="es">Vino dulce</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Tea</IRI>
+        <Literal xml:lang="en">A class that represents the concept of tea in the tasting domain</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Tea</IRI>
+        <Literal xml:lang="es">Una clase que representa el concepto de té en el dominio de las catas</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Tea</IRI>
+        <Literal xml:lang="en">Tea</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Tea</IRI>
+        <Literal xml:lang="es">Té</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#WhiteChocolate</IRI>
+        <Literal xml:lang="en">A class that represents the concept of white chocolate in the tasting domain</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#WhiteChocolate</IRI>
+        <Literal xml:lang="es">Una clase que representa el concepto de chocolate blanco en el dominio de las catas</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#WhiteChocolate</IRI>
+        <Literal xml:lang="es">Chocolate blanco</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#WhiteChocolate</IRI>
+        <Literal xml:lang="en">White chocolate</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#WhiteTea</IRI>
+        <Literal xml:lang="en">A class that represents the concept of white tea in the tasting domain</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#WhiteTea</IRI>
+        <Literal xml:lang="es">Una clase que representa el concepto de té blanco en el dominio de las catas</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#WhiteTea</IRI>
+        <Literal xml:lang="es">Té blanco</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#WhiteTea</IRI>
+        <Literal xml:lang="en">White tea</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#WhiteWine</IRI>
+        <Literal xml:lang="en">A class that represents the concept of white wine in the tasting domain</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#WhiteWine</IRI>
+        <Literal xml:lang="es">Una clase que representa el concepto de vino blanco en el dominio de las catas</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#WhiteWine</IRI>
+        <Literal xml:lang="es">Vino blanco</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#WhiteWine</IRI>
+        <Literal xml:lang="en">White wine</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Wine</IRI>
+        <Literal xml:lang="en">A class that represents the concept of wine in the tasting domain</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Wine</IRI>
+        <Literal xml:lang="es">Una clase que representa el concepto de vino en el dominio de las catas</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Wine</IRI>
+        <Literal xml:lang="es">Vino</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Wine</IRI>
+        <Literal xml:lang="en">Wine</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/dcam/rangeIncludes"/>
+        <IRI>#YellowTea</IRI>
+        <Literal xml:lang="es">Una clase que representa el concepto de té amarillo en el dominio de las catas</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#YellowTea</IRI>
+        <Literal xml:lang="en">A class that represents the concept of yellow tea in the tasting domain</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#YellowTea</IRI>
+        <Literal xml:lang="es">Té amarillo</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#YellowTea</IRI>
+        <Literal xml:lang="en">Yellow tea</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#acidity</IRI>
+        <Literal xml:lang="en">A property that represents the concept of coffee acidity in the tasting domain</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#acidity</IRI>
+        <Literal xml:lang="es">Una propiedad que representa el concepto de acidez (en café) en el dominio de las catas</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#acidity</IRI>
+        <Literal xml:lang="es">Acidez</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#acidity</IRI>
+        <Literal xml:lang="en">Acidity</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#alcoholDegree</IRI>
+        <Literal xml:lang="en">A property that represents the concept of &quot;alcohol degree&quot; applied to beverages in the tasting domain</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#alcoholDegree</IRI>
+        <Literal xml:lang="es">Una propiedad que representa el concepto de grado de alcohol en el dominio de las catas</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#alcoholDegree</IRI>
+        <Literal xml:lang="en">Alcohol degree</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#alcoholDegree</IRI>
+        <Literal xml:lang="es">Grado de alcohol</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#aroma</IRI>
+        <Literal xml:lang="en">A property that represents the aroma of a beverage in the tasting domain</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#aroma</IRI>
+        <Literal xml:lang="es">Una propiedad que representa el concepto de aroma en una bebida en el dominio de las catas</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#aroma</IRI>
+        <Literal xml:lang="en">Aroma</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#aroma</IRI>
+        <Literal xml:lang="es">Aroma</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#body</IRI>
+        <Literal xml:lang="en">A property that represents the concept of &quot;body&quot; applied to beverages in the tasting domain</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#body</IRI>
+        <Literal xml:lang="es">Una propiedad que representa el concepto de &quot;cuerpo&quot; en referencia a las bebidas y en el dominio de las catas</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#body</IRI>
+        <Literal xml:lang="en">Body</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#body</IRI>
+        <Literal xml:lang="es">Cuerpo</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#caffeineContent</IRI>
+        <Literal xml:lang="en">A property that represents the concept of caffine content applied to coffees in the tasting domain</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#caffeineContent</IRI>
+        <Literal xml:lang="es">Una clase que representa el contenido de cafeína de un café en el dominio de las catas</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#caffeineContent</IRI>
+        <Literal xml:lang="en">Caffeine content</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#caffeineContent</IRI>
+        <Literal xml:lang="es">Contenido de cafeína</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#cocoaPercentage</IRI>
+        <Literal xml:lang="es">El porcentaje de cacao de un chocolate</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#cocoaPercentage</IRI>
+        <Literal xml:lang="en">The percentage of cocoa of a given chocolate</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#cocoaPercentage</IRI>
+        <Literal xml:lang="en">Cacao percentage</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#cocoaPercentage</IRI>
+        <Literal xml:lang="es">Porcentaje de cacao</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#colour</IRI>
+        <Literal xml:lang="en">A property that provides the full detail of the color of a wine in the tasting domain</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#colour</IRI>
+        <Literal xml:lang="es">Una propiedad que permite describir en total detalle el color de un vino en el dominio de las catas</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#colour</IRI>
+        <Literal xml:lang="es">Color</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#colour</IRI>
+        <Literal xml:lang="en">Colour</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#detailedColor</IRI>
+        <Literal xml:lang="en">A property that describes in full detail the color of a chocolate</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#detailedColor</IRI>
+        <Literal xml:lang="es">Una propiedad que representa el color concreto de un chocolate (en total detalle)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#detailedColor</IRI>
+        <Literal xml:lang="es">Color detallado</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#detailedColor</IRI>
+        <Literal xml:lang="en">Detailed color</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#fatContent</IRI>
+        <Literal xml:lang="es">El contenido graso de un queso</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#fatContent</IRI>
+        <Literal xml:lang="en">The fat content of a given cheese</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#fatContent</IRI>
+        <Literal xml:lang="es">Contenido graso</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#fatContent</IRI>
+        <Literal xml:lang="en">Fat content</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#flavour</IRI>
+        <Literal xml:lang="en">A property that represents (beer) flavour in the tasting domain</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#flavour</IRI>
+        <Literal xml:lang="es">Una propiedad que representa el sabor de la cerveza en el dominio de las catas</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#flavour</IRI>
+        <Literal xml:lang="en">Flavour</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#flavour</IRI>
+        <Literal xml:lang="es">Sabor</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#humidityPercentage</IRI>
+        <Literal xml:lang="en">Cheese&apos;s humidity percentage</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#humidityPercentage</IRI>
+        <Literal xml:lang="es">El porcentaje de humedad del queso</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#humidityPercentage</IRI>
+        <Literal xml:lang="en">Humidity percentage</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#humidityPercentage</IRI>
+        <Literal xml:lang="es">Porcentaje de humedad</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#processMethod</IRI>
+        <Literal xml:lang="en">A property that represents the (tea) processing method in the tasting domain</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#processMethod</IRI>
+        <Literal xml:lang="es">Una propiedad que representa el concepto de método de procesamiento (en té) en el dominio de las catas</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#processMethod</IRI>
+        <Literal xml:lang="es">Método de procesamiento</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#processMethod</IRI>
+        <Literal xml:lang="en">Processing method</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#taninos</IRI>
+        <Literal xml:lang="en">A property that represents the concept of &quot;taninos&quot; applied to wine in the tasting domain</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#taninos</IRI>
+        <Literal xml:lang="es">Una propiedad que representa el concepto de taninos del vino en el dominio de catas</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#taninos</IRI>
+        <Literal xml:lang="en">Taninos</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#taninos</IRI>
+        <Literal xml:lang="es">Taninos</Literal>
+    </AnnotationAssertion>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.5.26.2023-07-17T20:34:13Z) https://github.com/owlcs/owlapi -->
+
