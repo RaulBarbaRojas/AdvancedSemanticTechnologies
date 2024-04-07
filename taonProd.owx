@@ -257,6 +257,10 @@
         <Class IRI="#Tea"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#Product"/>
+        <Class IRI="#Beverage"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#RedTea"/>
         <Class IRI="#Tea"/>
     </SubClassOf>
@@ -287,6 +291,10 @@
     <SubClassOf>
         <Class IRI="#SweetWine"/>
         <Class IRI="#Wine"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Tea"/>
+        <Class IRI="#Beverage"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#WhiteChocolate"/>
