@@ -7,12 +7,25 @@
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      ontologyIRI="http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd">
     <Prefix name="" IRI="http://www.semanticweb.org/usuario/ontologies/2024/3/untitled-ontology-27/"/>
+    <Prefix name="dc" IRI="http://purl.org/dc/elements/1.1/"/>
+    <Prefix name="ns" IRI="http://creativecommons.org/ns#"/>
+    <Prefix name="ns1" IRI="http://www.w3.org/2003/06/sw-vocab-status/ns#"/>
     <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
     <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="wot" IRI="http://xmlns.com/wot/0.1/"/>
     <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
     <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="dcam" IRI="http://purl.org/dc/dcam/"/>
+    <Prefix name="foaf" IRI="http://xmlns.com/foaf/0.1/"/>
     <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Prefix name="vann" IRI="http://purl.org/vocab/vann/"/>
+    <Prefix name="terms" IRI="http://purl.org/dc/terms/"/>
+    <Prefix name="vartrans" IRI="http://www.w3.org/ns/lemon/vartrans#"/>
     <Import>http://www.semanticweb.org/usuario/ontologies/2024/2/taon</Import>
+    <Annotation>
+        <AnnotationProperty abbreviatedIRI="ns:license"/>
+        <Literal xml:lang="en">This work is licensed under the Creative Commons Attribution 4.0 International License. To view a copy of this license, visit http://creativecommons.org/licenses/by/4.0/ or send a letter to Creative Commons, PO Box 1866, Mountain View, CA 94042, USA.</Literal>
+    </Annotation>
     <Declaration>
         <Class IRI="#AbbeyBeer"/>
     </Declaration>
@@ -119,6 +132,9 @@
         <Class IRI="#YellowTea"/>
     </Declaration>
     <Declaration>
+        <ObjectProperty IRI="#contains"/>
+    </Declaration>
+    <Declaration>
         <DataProperty IRI="#acidity"/>
     </Declaration>
     <Declaration>
@@ -153,6 +169,9 @@
     </Declaration>
     <Declaration>
         <DataProperty IRI="#processMethod"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#productionYear"/>
     </Declaration>
     <Declaration>
         <DataProperty IRI="#taninos"/>
@@ -270,10 +289,6 @@
         <Class IRI="#Wine"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#Tea"/>
-        <Class IRI="#Beverage"/>
-    </SubClassOf>
-    <SubClassOf>
         <Class IRI="#WhiteChocolate"/>
         <Class IRI="#Chocolate"/>
     </SubClassOf>
@@ -293,6 +308,14 @@
         <Class IRI="#YellowTea"/>
         <Class IRI="#Tea"/>
     </SubClassOf>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#contains"/>
+        <Class IRI="http://www.semanticweb.org/usuario/ontologies/2024/2/taon#Tasting"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#contains"/>
+        <Class IRI="#Product"/>
+    </ObjectPropertyRange>
     <DataPropertyDomain>
         <DataProperty IRI="#acidity"/>
         <Class IRI="#Coffee"/>
@@ -340,6 +363,10 @@
     <DataPropertyDomain>
         <DataProperty IRI="#processMethod"/>
         <Class IRI="#Tea"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#productionYear"/>
+        <Class IRI="#Product"/>
     </DataPropertyDomain>
     <DataPropertyDomain>
         <DataProperty IRI="#taninos"/>
@@ -392,6 +419,10 @@
     <DataPropertyRange>
         <DataProperty IRI="#processMethod"/>
         <Datatype abbreviatedIRI="rdfs:Literal"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#productionYear"/>
+        <Datatype abbreviatedIRI="xsd:integer"/>
     </DataPropertyRange>
     <DataPropertyRange>
         <DataProperty IRI="#taninos"/>
@@ -938,7 +969,7 @@
         <Literal xml:lang="en">Wine</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty IRI="http://purl.org/dc/dcam/rangeIncludes"/>
+        <AnnotationProperty abbreviatedIRI="dcam:rangeIncludes"/>
         <IRI>#YellowTea</IRI>
         <Literal xml:lang="es">Una clase que representa el concepto de té amarillo en el dominio de las catas</Literal>
     </AnnotationAssertion>
@@ -1099,6 +1130,26 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#contains</IRI>
+        <Literal xml:lang="en">A property that allows the link between a tasting and its product</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#contains</IRI>
+        <Literal xml:lang="es">Una propiedad que permite enlazar una cata con su producto</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#contains</IRI>
+        <Literal xml:lang="en">Contains</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#contains</IRI>
+        <Literal xml:lang="es">Contiene</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>#detailedColor</IRI>
         <Literal xml:lang="en">A property that describes in full detail the color of a chocolate</Literal>
     </AnnotationAssertion>
@@ -1196,6 +1247,26 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#processMethod</IRI>
         <Literal xml:lang="en">Processing method</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#productionYear</IRI>
+        <Literal xml:lang="en">A property that describes the production year of a product</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#productionYear</IRI>
+        <Literal xml:lang="es">Una propiedad que representa el año de producción de un producto</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#productionYear</IRI>
+        <Literal xml:lang="es">Año de producción</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#productionYear</IRI>
+        <Literal xml:lang="en">Production year</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>

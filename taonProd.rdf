@@ -25,6 +25,30 @@
     <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
     //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#contains -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#contains">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/usuario/ontologies/2024/2/taon#Tasting"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#Product"/>
+        <rdfs:comment xml:lang="en">A property that allows the link between a tasting and its product</rdfs:comment>
+        <rdfs:comment xml:lang="es">Una propiedad que permite enlazar una cata con su producto</rdfs:comment>
+        <rdfs:label xml:lang="en">Contains</rdfs:label>
+        <rdfs:label xml:lang="es">Contiene</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
     // Data properties
     //
     ///////////////////////////////////////////////////////////////////////////////////////
@@ -185,6 +209,19 @@
         <rdfs:comment xml:lang="es">Una propiedad que representa el concepto de método de procesamiento (en té) en el dominio de las catas</rdfs:comment>
         <rdfs:label xml:lang="es">Método de procesamiento</rdfs:label>
         <rdfs:label xml:lang="en">Processing method</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#productionYear -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#productionYear">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#Product"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+        <rdfs:comment xml:lang="en">A property that describes the production year of a product</rdfs:comment>
+        <rdfs:comment xml:lang="es">Una propiedad que representa el año de producción de un producto</rdfs:comment>
+        <rdfs:label xml:lang="es">Año de producción</rdfs:label>
+        <rdfs:label xml:lang="en">Production year</rdfs:label>
     </owl:DatatypeProperty>
     
 
@@ -535,7 +572,6 @@
     <!-- http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#Tea -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#Tea">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#Beverage"/>
         <rdfs:comment xml:lang="en">A class that represents the concept of tea in the tasting domain</rdfs:comment>
         <rdfs:comment xml:lang="es">Una clase que representa el concepto de té en el dominio de las catas</rdfs:comment>
         <rdfs:label xml:lang="en">Tea</rdfs:label>
