@@ -473,7 +473,6 @@
     <!-- http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#Product -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#Product">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#Beverage"/>
         <rdfs:comment xml:lang="en">A class to represent the concept of a product that is involved in a tasting (like wine or cheese).</rdfs:comment>
         <rdfs:comment xml:lang="es">Una clase que representa el producto implicado en una cata (como el vino y el queso).</rdfs:comment>
         <rdfs:label xml:lang="en">Product</rdfs:label>
