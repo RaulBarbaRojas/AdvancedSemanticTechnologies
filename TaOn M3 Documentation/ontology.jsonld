@@ -1,0 +1,29 @@
+[ {
+  "@id" : "http://www.semanticweb.org/usuario/ontologies/2024/2/taon#TastingEvent",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://schema.org/FoodEvent"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/usuario/ontologies/2024/2/taonLoc",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Ontology" ],
+  "http://www.w3.org/2002/07/owl#imports" : [ {
+    "@id" : "http://www.semanticweb.org/usuario/ontologies/2024/2/taon"
+  }, {
+    "@id" : "http://www.w3.org/2006/time#2016"
+  }, {
+    "@id" : "https://schema.org/"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/usuario/ontologies/2024/2/taonLoc#occursAt",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/usuario/ontologies/2024/2/taon#TastingEvent"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2006/time#ProperInterval"
+  } ]
+}, {
+  "@id" : "https://schema.org/FoodEvent",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+} ]

@@ -1,0 +1,435 @@
+<http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
+<http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd> <http://www.w3.org/2002/07/owl#imports> <http://www.semanticweb.org/usuario/ontologies/2024/2/taon> .
+<http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd> <http://creativecommons.org/ns#license> "This work is licensed under the Creative Commons Attribution 4.0 International License. To view a copy of this license, visit http://creativecommons.org/licenses/by/4.0/ or send a letter to Creative Commons, PO Box 1866, Mountain View, CA 94042, USA."@en .
+# 
+# 
+# #################################################################
+# #
+# #    Annotation properties
+# #
+# #################################################################
+# 
+# 
+# http://creativecommons.org/ns#license
+<http://creativecommons.org/ns#license> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/dc/dcam/rangeIncludes
+<http://purl.org/dc/dcam/rangeIncludes> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Object Properties
+# #
+# #################################################################
+# 
+# 
+# http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#contains
+<http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#contains> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#contains> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/usuario/ontologies/2024/2/taon#Tasting> .
+<http://www.semanticweb.org/usuario/ontologies/2024/2/taon#Tasting> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#contains> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#Product> .
+<http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#contains> <http://www.w3.org/2000/01/rdf-schema#comment> "A property that allows the link between a tasting and its product"@en .
+<http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#contains> <http://www.w3.org/2000/01/rdf-schema#comment> "Una propiedad que permite enlazar una cata con su producto"@es .
+<http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#contains> <http://www.w3.org/2000/01/rdf-schema#label> "Contains"@en .
+<http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#contains> <http://www.w3.org/2000/01/rdf-schema#label> "Contiene"@es .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Data properties
+# #
+# #################################################################
+# 
+# 
+# http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#acidity
+<http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#acidity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#acidity> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#Coffee> .
+<http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#acidity> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> .
+<http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#acidity> <http://www.w3.org/2000/01/rdf-schema#comment> "A property that represents the concept of coffee acidity in the tasting domain"@en .
+<http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#acidity> <http://www.w3.org/2000/01/rdf-schema#comment> "Una propiedad que representa el concepto de acidez (en café) en el dominio de las catas"@es .
+<http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#acidity> <http://www.w3.org/2000/01/rdf-schema#label> "Acidez"@es .
+<http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#acidity> <http://www.w3.org/2000/01/rdf-schema#label> "Acidity"@en .
+# 
+# http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#alcoholDegree
+<http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#alcoholDegree> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#alcoholDegree> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#Beverage> .
+<http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#alcoholDegree> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#float> .
+<http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#alcoholDegree> <http://www.w3.org/2000/01/rdf-schema#comment> "A property that represents the concept of \"alcohol degree\" applied to beverages in the tasting domain"@en .
+<http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#alcoholDegree> <http://www.w3.org/2000/01/rdf-schema#comment> "Una propiedad que representa el concepto de grado de alcohol en el dominio de las catas"@es .
+<http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#alcoholDegree> <http://www.w3.org/2000/01/rdf-schema#label> "Alcohol degree"@en .
+<http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#alcoholDegree> <http://www.w3.org/2000/01/rdf-schema#label> "Grado de alcohol"@es .
+# 
+# http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#aroma
+<http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#aroma> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#aroma> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#Beverage> .
+<http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#aroma> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> .
+<http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#aroma> <http://www.w3.org/2000/01/rdf-schema#comment> "A property that represents the aroma of a beverage in the tasting domain"@en .
+<http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#aroma> <http://www.w3.org/2000/01/rdf-schema#comment> "Una propiedad que representa el concepto de aroma en una bebida en el dominio de las catas"@es .
+<http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#aroma> <http://www.w3.org/2000/01/rdf-schema#label> "Aroma"@en .
+<http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#aroma> <http://www.w3.org/2000/01/rdf-schema#label> "Aroma"@es .
+# 
+# http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#body
+<http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#body> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#body> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#Beverage> .
+<http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#body> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> .
+<http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#body> <http://www.w3.org/2000/01/rdf-schema#comment> "A property that represents the concept of \"body\" applied to beverages in the tasting domain"@en .
+<http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#body> <http://www.w3.org/2000/01/rdf-schema#comment> "Una propiedad que representa el concepto de \"cuerpo\" en referencia a las bebidas y en el dominio de las catas"@es .
+<http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#body> <http://www.w3.org/2000/01/rdf-schema#label> "Body"@en .
+<http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#body> <http://www.w3.org/2000/01/rdf-schema#label> "Cuerpo"@es .
+# 
+# http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#caffeineContent
+<http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#caffeineContent> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#caffeineContent> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#Coffee> .
+<http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#caffeineContent> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#float> .
+<http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#caffeineContent> <http://www.w3.org/2000/01/rdf-schema#comment> "A property that represents the concept of caffine content applied to coffees in the tasting domain"@en .
+<http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#caffeineContent> <http://www.w3.org/2000/01/rdf-schema#comment> "Una clase que representa el contenido de cafeína de un café en el dominio de las catas"@es .
+<http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#caffeineContent> <http://www.w3.org/2000/01/rdf-schema#label> "Caffeine content"@en .
+<http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#caffeineContent> <http://www.w3.org/2000/01/rdf-schema#label> "Contenido de cafeína"@es .
+# 
+# http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#cocoaPercentage
+<http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#cocoaPercentage> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#cocoaPercentage> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#Chocolate> .
+<http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#cocoaPercentage> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#float> .
+<http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#cocoaPercentage> <http://www.w3.org/2000/01/rdf-schema#comment> "El porcentaje de cacao de un chocolate"@es .
+<http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#cocoaPercentage> <http://www.w3.org/2000/01/rdf-schema#comment> "The percentage of cocoa of a given chocolate"@en .
+<http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#cocoaPercentage> <http://www.w3.org/2000/01/rdf-schema#label> "Cacao percentage"@en .
+<http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#cocoaPercentage> <http://www.w3.org/2000/01/rdf-schema#label> "Porcentaje de cacao"@es .
+# 
+# http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#colour
+<http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#colour> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#colour> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#Wine> .
+<http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#colour> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> .
+<http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#colour> <http://www.w3.org/2000/01/rdf-schema#comment> "A property that provides the full detail of the color of a wine in the tasting domain"@en .
+<http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#colour> <http://www.w3.org/2000/01/rdf-schema#comment> "Una propiedad que permite describir en total detalle el color de un vino en el dominio de las catas"@es .
+<http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#colour> <http://www.w3.org/2000/01/rdf-schema#label> "Color"@es .
+<http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#colour> <http://www.w3.org/2000/01/rdf-schema#label> "Colour"@en .
+# 
+# http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#detailedColor
+<http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#detailedColor> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#detailedColor> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#Chocolate> .
+<http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#detailedColor> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> .
+<http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#detailedColor> <http://www.w3.org/2000/01/rdf-schema#comment> "A property that describes in full detail the color of a chocolate"@en .
+<http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#detailedColor> <http://www.w3.org/2000/01/rdf-schema#comment> "Una propiedad que representa el color concreto de un chocolate (en total detalle)"@es .
+<http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#detailedColor> <http://www.w3.org/2000/01/rdf-schema#label> "Color detallado"@es .
+<http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#detailedColor> <http://www.w3.org/2000/01/rdf-schema#label> "Detailed color"@en .
+# 
+# http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#fatContent
+<http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#fatContent> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#fatContent> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#Cheese> .
+<http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#fatContent> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#double> .
+<http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#fatContent> <http://www.w3.org/2000/01/rdf-schema#comment> "El contenido graso de un queso"@es .
+<http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#fatContent> <http://www.w3.org/2000/01/rdf-schema#comment> "The fat content of a given cheese"@en .
+<http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#fatContent> <http://www.w3.org/2000/01/rdf-schema#label> "Contenido graso"@es .
+<http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#fatContent> <http://www.w3.org/2000/01/rdf-schema#label> "Fat content"@en .
+# 
+# http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#flavour
+<http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#flavour> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#flavour> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#Beer> .
+<http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#flavour> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> .
+<http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#flavour> <http://www.w3.org/2000/01/rdf-schema#comment> "A property that represents (beer) flavour in the tasting domain"@en .
+<http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#flavour> <http://www.w3.org/2000/01/rdf-schema#comment> "Una propiedad que representa el sabor de la cerveza en el dominio de las catas"@es .
+<http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#flavour> <http://www.w3.org/2000/01/rdf-schema#label> "Flavour"@en .
+<http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#flavour> <http://www.w3.org/2000/01/rdf-schema#label> "Sabor"@es .
+# 
+# http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#humidityPercentage
+<http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#humidityPercentage> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#humidityPercentage> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#Cheese> .
+<http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#humidityPercentage> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#float> .
+<http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#humidityPercentage> <http://www.w3.org/2000/01/rdf-schema#comment> "Cheese's humidity percentage"@en .
+<http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#humidityPercentage> <http://www.w3.org/2000/01/rdf-schema#comment> "El porcentaje de humedad del queso"@es .
+<http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#humidityPercentage> <http://www.w3.org/2000/01/rdf-schema#label> "Humidity percentage"@en .
+<http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#humidityPercentage> <http://www.w3.org/2000/01/rdf-schema#label> "Porcentaje de humedad"@es .
+# 
+# http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#processMethod
+<http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#processMethod> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#processMethod> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#Tea> .
+<http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#processMethod> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> .
+<http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#processMethod> <http://www.w3.org/2000/01/rdf-schema#comment> "A property that represents the (tea) processing method in the tasting domain"@en .
+<http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#processMethod> <http://www.w3.org/2000/01/rdf-schema#comment> "Una propiedad que representa el concepto de método de procesamiento (en té) en el dominio de las catas"@es .
+<http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#processMethod> <http://www.w3.org/2000/01/rdf-schema#label> "Método de procesamiento"@es .
+<http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#processMethod> <http://www.w3.org/2000/01/rdf-schema#label> "Processing method"@en .
+# 
+# http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#productionYear
+<http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#productionYear> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#productionYear> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#Product> .
+<http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#productionYear> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#integer> .
+<http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#productionYear> <http://www.w3.org/2000/01/rdf-schema#comment> "A property that describes the production year of a product"@en .
+<http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#productionYear> <http://www.w3.org/2000/01/rdf-schema#comment> "Una propiedad que representa el año de producción de un producto"@es .
+<http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#productionYear> <http://www.w3.org/2000/01/rdf-schema#label> "Año de producción"@es .
+<http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#productionYear> <http://www.w3.org/2000/01/rdf-schema#label> "Production year"@en .
+# 
+# http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#taninos
+<http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#taninos> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#taninos> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#Wine> .
+<http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#taninos> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> .
+<http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#taninos> <http://www.w3.org/2000/01/rdf-schema#comment> "A property that represents the concept of \"taninos\" applied to wine in the tasting domain"@en .
+<http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#taninos> <http://www.w3.org/2000/01/rdf-schema#comment> "Una propiedad que representa el concepto de taninos del vino en el dominio de catas"@es .
+<http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#taninos> <http://www.w3.org/2000/01/rdf-schema#label> "Taninos"@en .
+<http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#taninos> <http://www.w3.org/2000/01/rdf-schema#label> "Taninos"@es .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Classes
+# #
+# #################################################################
+# 
+# 
+# http://www.semanticweb.org/usuario/ontologies/2024/2/taon#Tasting
+# 
+# http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#AbbeyBeer
+<http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#AbbeyBeer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#AbbeyBeer> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#Beer> .
+<http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#AbbeyBeer> <http://www.w3.org/2000/01/rdf-schema#comment> "A class that represents the concept of abbey beer in the tasting domain"@en .
+<http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#AbbeyBeer> <http://www.w3.org/2000/01/rdf-schema#comment> "Una clase que representa el concepto de cerveza Abadía en el dominio de las catas"@es .
+<http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#AbbeyBeer> <http://www.w3.org/2000/01/rdf-schema#label> "Abbey beer"@en .
+<http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#AbbeyBeer> <http://www.w3.org/2000/01/rdf-schema#label> "Cerveza Abadía" .
+# 
+# http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#AleBeer
+<http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#AleBeer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#AleBeer> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#Beer> .
+<http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#AleBeer> <http://www.w3.org/2000/01/rdf-schema#comment> "A class that represents the concept of Ale beer in the tasting domain"@en .
+<http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#AleBeer> <http://www.w3.org/2000/01/rdf-schema#comment> "Una clase que representa el concepto de cerveza Ale en el dominio de las catas"@es .
+<http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#AleBeer> <http://www.w3.org/2000/01/rdf-schema#label> "Ale beer"@en .
+<http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#AleBeer> <http://www.w3.org/2000/01/rdf-schema#label> "Cerveza Ale"@es .
+# 
+# http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#Beer
+<http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#Beer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#Beer> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#Beverage> .
+<http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#Beer> <http://www.w3.org/2000/01/rdf-schema#comment> "A class that represents the concept of beer in the tasting domain"@en .
+<http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#Beer> <http://www.w3.org/2000/01/rdf-schema#comment> "Una clase que representa el concepto de cerveza en el dominio de las catas"@es .
+<http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#Beer> <http://www.w3.org/2000/01/rdf-schema#label> "Beer"@en .
+<http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#Beer> <http://www.w3.org/2000/01/rdf-schema#label> "Cerveza"@es .
+# 
+# http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#Beverage
+<http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#Beverage> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#Beverage> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#Product> .
+<http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#Beverage> <http://www.w3.org/2000/01/rdf-schema#comment> "A class that represents beverage-related products involved in a tasting event, like wine or tea."@en .
+<http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#Beverage> <http://www.w3.org/2000/01/rdf-schema#comment> "Una clase que representa productos basados en bebida implicados en eventos de cada, como el vino o el té."@es .
+<http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#Beverage> <http://www.w3.org/2000/01/rdf-schema#label> "Bebida"@es .
+<http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#Beverage> <http://www.w3.org/2000/01/rdf-schema#label> "Beverage"@en .
+# 
+# http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#BlackTea
+<http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#BlackTea> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#BlackTea> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#Tea> .
+<http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#BlackTea> <http://www.w3.org/2000/01/rdf-schema#comment> "A class that represents the concept of black tea in the tasting domain"@en .
+<http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#BlackTea> <http://www.w3.org/2000/01/rdf-schema#comment> "Una clase que representa el concepto de té negro en el dominio de las catas"@es .
+<http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#BlackTea> <http://www.w3.org/2000/01/rdf-schema#label> "Black tea"@en .
+<http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#BlackTea> <http://www.w3.org/2000/01/rdf-schema#label> "Té negro"@es .
+# 
+# http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#BlueCheese
+<http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#BlueCheese> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#BlueCheese> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#Cheese> .
+# 
+# http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#Cheese
+<http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#Cheese> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#Cheese> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#Food> .
+# 
+# http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#Chocolate
+<http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#Chocolate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#Chocolate> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#Food> .
+# 
+# http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#Coffee
+<http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#Coffee> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#Coffee> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#Beverage> .
+<http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#Coffee> <http://www.w3.org/2000/01/rdf-schema#comment> "A class that represents the concept of coffee in the tasting domain"@en .
+<http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#Coffee> <http://www.w3.org/2000/01/rdf-schema#comment> "Una clase que representa el concepto de café en el dominio de las catas"@es .
+<http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#Coffee> <http://www.w3.org/2000/01/rdf-schema#label> "Café"@es .
+<http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#Coffee> <http://www.w3.org/2000/01/rdf-schema#label> "Coffee"@en .
+# 
+# http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#DarkBeer
+<http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#DarkBeer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#DarkBeer> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#Beer> .
+<http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#DarkBeer> <http://www.w3.org/2000/01/rdf-schema#comment> "A class that represents the concept of dark beer in the tasting domain"@en .
+<http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#DarkBeer> <http://www.w3.org/2000/01/rdf-schema#comment> "Una clase que representa el concepto de cerveza negra en el dominio de las catas"@es .
+<http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#DarkBeer> <http://www.w3.org/2000/01/rdf-schema#label> "Cerveza negra"@es .
+<http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#DarkBeer> <http://www.w3.org/2000/01/rdf-schema#label> "Dark beer"@en .
+# 
+# http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#DarkChocolate
+<http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#DarkChocolate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#DarkChocolate> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#Chocolate> .
+<http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#DarkChocolate> <http://www.w3.org/2000/01/rdf-schema#comment> "A class that represents the concept of dark chocolate in the tasting domain"@en .
+<http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#DarkChocolate> <http://www.w3.org/2000/01/rdf-schema#comment> "Una clase que representa el concepto de chocolate negro en el dominio de las catas"@en .
+<http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#DarkChocolate> <http://www.w3.org/2000/01/rdf-schema#label> "Chocolate negro"@es .
+<http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#DarkChocolate> <http://www.w3.org/2000/01/rdf-schema#label> "Dark chocolate"@en .
+# 
+# http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#Food
+<http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#Food> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#Food> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#Product> .
+<http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#Food> <http://www.w3.org/2000/01/rdf-schema#comment> "A class that represents food-related products involved in tasting events, like cheese and chocolate."@en .
+<http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#Food> <http://www.w3.org/2000/01/rdf-schema#comment> "Una clase que representa productos relacionados con comida implicados en un evento de catas, como el queso o el chocolate."@es .
+<http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#Food> <http://www.w3.org/2000/01/rdf-schema#label> "Comida"@es .
+<http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#Food> <http://www.w3.org/2000/01/rdf-schema#label> "Food"@en .
+# 
+# http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#FortifiedWine
+<http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#FortifiedWine> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#FortifiedWine> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#Wine> .
+<http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#FortifiedWine> <http://www.w3.org/2000/01/rdf-schema#comment> "A class that represents the concept of fortified wine in the tasting domain"@en .
+<http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#FortifiedWine> <http://www.w3.org/2000/01/rdf-schema#comment> "Una clase que representa el concepto de vino generoso en el dominio de las catas"@es .
+<http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#FortifiedWine> <http://www.w3.org/2000/01/rdf-schema#label> "Fortified wine"@en .
+<http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#FortifiedWine> <http://www.w3.org/2000/01/rdf-schema#label> "Vino generoso"@es .
+# 
+# http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#FreshCheese
+<http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#FreshCheese> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#FreshCheese> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#Cheese> .
+# 
+# http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#GreenCoffee
+<http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#GreenCoffee> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#GreenCoffee> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#Coffee> .
+<http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#GreenCoffee> <http://www.w3.org/2000/01/rdf-schema#comment> "A class that represents the concept of green coffee in the tasting domain"@en .
+<http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#GreenCoffee> <http://www.w3.org/2000/01/rdf-schema#comment> "Una clase que representa el concepto de café verde en el dominio de las catas"@es .
+<http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#GreenCoffee> <http://www.w3.org/2000/01/rdf-schema#label> "Café verde"@es .
+<http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#GreenCoffee> <http://www.w3.org/2000/01/rdf-schema#label> "Green coffee"@en .
+# 
+# http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#GreenTea
+<http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#GreenTea> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#GreenTea> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#Tea> .
+<http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#GreenTea> <http://www.w3.org/2000/01/rdf-schema#comment> "A class that represents the concept of green tea in the tasting domain"@en .
+<http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#GreenTea> <http://www.w3.org/2000/01/rdf-schema#comment> "Una clase que representa el concepto de té verde en el dominio de las catas"@es .
+<http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#GreenTea> <http://www.w3.org/2000/01/rdf-schema#label> "Green tea"@en .
+<http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#GreenTea> <http://www.w3.org/2000/01/rdf-schema#label> "Té verde"@es .
+# 
+# http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#HardCheese
+<http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#HardCheese> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#HardCheese> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#Cheese> .
+# 
+# http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#LagerBeer
+<http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#LagerBeer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#LagerBeer> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#Beer> .
+<http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#LagerBeer> <http://www.w3.org/2000/01/rdf-schema#comment> "A class that represents the concept of Lager beer in the tasting domain"@en .
+<http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#LagerBeer> <http://www.w3.org/2000/01/rdf-schema#comment> "Una clase que representa el concepto de cerveza Lager en el dominio de las catas"@es .
+<http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#LagerBeer> <http://www.w3.org/2000/01/rdf-schema#label> "Cerveza Lager"@es .
+<http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#LagerBeer> <http://www.w3.org/2000/01/rdf-schema#label> "Lager beer"@en .
+# 
+# http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#MilkChocolate
+<http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#MilkChocolate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#MilkChocolate> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#Chocolate> .
+<http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#MilkChocolate> <http://www.w3.org/2000/01/rdf-schema#comment> "A class that represents the concept of milk chocolate in the tasting domain"@en .
+<http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#MilkChocolate> <http://www.w3.org/2000/01/rdf-schema#comment> "Una clase que representa el concepto de chocolate con leche en el dominio de las catas"@es .
+<http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#MilkChocolate> <http://www.w3.org/2000/01/rdf-schema#label> "Chocolate con leche"@es .
+<http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#MilkChocolate> <http://www.w3.org/2000/01/rdf-schema#label> "Milk chocolate"@en .
+# 
+# http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#OolongTea
+<http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#OolongTea> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#OolongTea> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#Tea> .
+<http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#OolongTea> <http://www.w3.org/2000/01/rdf-schema#comment> "A class that represents the concept of Oolong tea in the tasting domain"@en .
+<http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#OolongTea> <http://www.w3.org/2000/01/rdf-schema#comment> "Una clase que representa el concepto de té Oolong en el dominio de las catas"@es .
+<http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#OolongTea> <http://www.w3.org/2000/01/rdf-schema#label> "Oolong tea"@en .
+<http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#OolongTea> <http://www.w3.org/2000/01/rdf-schema#label> "Té Oolong"@es .
+# 
+# http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#Product
+<http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#Product> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#Product> <http://www.w3.org/2000/01/rdf-schema#comment> "A class to represent the concept of a product that is involved in a tasting (like wine or cheese)."@en .
+<http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#Product> <http://www.w3.org/2000/01/rdf-schema#comment> "Una clase que representa el producto implicado en una cata (como el vino y el queso)."@es .
+<http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#Product> <http://www.w3.org/2000/01/rdf-schema#label> "Product"@en .
+<http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#Product> <http://www.w3.org/2000/01/rdf-schema#label> "Producto"@es .
+# 
+# http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#RedTea
+<http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#RedTea> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#RedTea> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#Tea> .
+<http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#RedTea> <http://www.w3.org/2000/01/rdf-schema#comment> "A class that represents the concept of red tea in the tasting domain"@en .
+<http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#RedTea> <http://www.w3.org/2000/01/rdf-schema#comment> "Una clase que representa el concepto de té rojo en el dominio de las catas"@es .
+<http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#RedTea> <http://www.w3.org/2000/01/rdf-schema#label> "Red tea"@en .
+<http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#RedTea> <http://www.w3.org/2000/01/rdf-schema#label> "Té rojo"@es .
+# 
+# http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#RedWine
+<http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#RedWine> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#RedWine> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#Wine> .
+<http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#RedWine> <http://www.w3.org/2000/01/rdf-schema#comment> "A class that represents the concept of red wine in the tasting domain"@en .
+<http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#RedWine> <http://www.w3.org/2000/01/rdf-schema#comment> "Una clase que representa el concepto de vino tinto en el dominio de las catas"@es .
+<http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#RedWine> <http://www.w3.org/2000/01/rdf-schema#label> "Red wine"@en .
+<http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#RedWine> <http://www.w3.org/2000/01/rdf-schema#label> "Vino tinto"@es .
+# 
+# http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#RoastedCoffee
+<http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#RoastedCoffee> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#RoastedCoffee> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#Coffee> .
+<http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#RoastedCoffee> <http://www.w3.org/2000/01/rdf-schema#comment> "A class that represents the concept of roasted coffee in the tasting domain"@en .
+<http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#RoastedCoffee> <http://www.w3.org/2000/01/rdf-schema#comment> "Una clase que representa el concepto de café tostado en el dominio de las catas"@es .
+<http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#RoastedCoffee> <http://www.w3.org/2000/01/rdf-schema#label> "Café tostado"@es .
+<http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#RoastedCoffee> <http://www.w3.org/2000/01/rdf-schema#label> "Roasted coffee"@en .
+# 
+# http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#RoseWine
+<http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#RoseWine> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#RoseWine> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#Wine> .
+<http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#RoseWine> <http://www.w3.org/2000/01/rdf-schema#comment> "A class that represents the concept of rose wine in the tasting domain"@en .
+<http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#RoseWine> <http://www.w3.org/2000/01/rdf-schema#comment> "Una clase que representa el concepto de vino rosado en el dominio de las catas"@es .
+<http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#RoseWine> <http://www.w3.org/2000/01/rdf-schema#label> "Rose wine"@en .
+<http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#RoseWine> <http://www.w3.org/2000/01/rdf-schema#label> "Vino rosado"@es .
+# 
+# http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#SemiSoftCheese
+<http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#SemiSoftCheese> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#SemiSoftCheese> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#Cheese> .
+# 
+# http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#SoftCheese
+<http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#SoftCheese> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#SoftCheese> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#Cheese> .
+# 
+# http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#SparklingWine
+<http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#SparklingWine> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#SparklingWine> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#Wine> .
+<http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#SparklingWine> <http://www.w3.org/2000/01/rdf-schema#comment> "A class that represents the concept of sparkling wine in the tasting domain"@en .
+<http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#SparklingWine> <http://www.w3.org/2000/01/rdf-schema#comment> "Una clase que representa el concepto de vino espumoso en el dominio de las catas"@es .
+<http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#SparklingWine> <http://www.w3.org/2000/01/rdf-schema#label> "Sparkling wine"@en .
+<http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#SparklingWine> <http://www.w3.org/2000/01/rdf-schema#label> "Vino espumoso"@es .
+# 
+# http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#SweetWine
+<http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#SweetWine> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#SweetWine> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#Wine> .
+<http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#SweetWine> <http://www.w3.org/2000/01/rdf-schema#comment> "A class that represents the concept of sweet wine in the tasting domain"@en .
+<http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#SweetWine> <http://www.w3.org/2000/01/rdf-schema#comment> "Una clase que representa el concepto de vino dulce en el dominio de las catas"@es .
+<http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#SweetWine> <http://www.w3.org/2000/01/rdf-schema#label> "Sweet wine"@en .
+<http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#SweetWine> <http://www.w3.org/2000/01/rdf-schema#label> "Vino dulce"@es .
+# 
+# http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#Tea
+<http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#Tea> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#Tea> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#Beverage> .
+<http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#Tea> <http://www.w3.org/2000/01/rdf-schema#comment> "A class that represents the concept of tea in the tasting domain"@en .
+<http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#Tea> <http://www.w3.org/2000/01/rdf-schema#comment> "Una clase que representa el concepto de té en el dominio de las catas"@es .
+<http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#Tea> <http://www.w3.org/2000/01/rdf-schema#label> "Tea"@en .
+<http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#Tea> <http://www.w3.org/2000/01/rdf-schema#label> "Té"@es .
+# 
+# http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#WhiteChocolate
+<http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#WhiteChocolate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#WhiteChocolate> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#Chocolate> .
+<http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#WhiteChocolate> <http://www.w3.org/2000/01/rdf-schema#comment> "A class that represents the concept of white chocolate in the tasting domain"@en .
+<http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#WhiteChocolate> <http://www.w3.org/2000/01/rdf-schema#comment> "Una clase que representa el concepto de chocolate blanco en el dominio de las catas"@es .
+<http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#WhiteChocolate> <http://www.w3.org/2000/01/rdf-schema#label> "Chocolate blanco"@es .
+<http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#WhiteChocolate> <http://www.w3.org/2000/01/rdf-schema#label> "White chocolate"@en .
+# 
+# http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#WhiteTea
+<http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#WhiteTea> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#WhiteTea> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#Tea> .
+<http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#WhiteTea> <http://www.w3.org/2000/01/rdf-schema#comment> "A class that represents the concept of white tea in the tasting domain"@en .
+<http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#WhiteTea> <http://www.w3.org/2000/01/rdf-schema#comment> "Una clase que representa el concepto de té blanco en el dominio de las catas"@es .
+<http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#WhiteTea> <http://www.w3.org/2000/01/rdf-schema#label> "Té blanco"@es .
+<http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#WhiteTea> <http://www.w3.org/2000/01/rdf-schema#label> "White tea"@en .
+# 
+# http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#WhiteWine
+<http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#WhiteWine> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#WhiteWine> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#Wine> .
+<http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#WhiteWine> <http://www.w3.org/2000/01/rdf-schema#comment> "A class that represents the concept of white wine in the tasting domain"@en .
+<http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#WhiteWine> <http://www.w3.org/2000/01/rdf-schema#comment> "Una clase que representa el concepto de vino blanco en el dominio de las catas"@es .
+<http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#WhiteWine> <http://www.w3.org/2000/01/rdf-schema#label> "Vino blanco"@es .
+<http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#WhiteWine> <http://www.w3.org/2000/01/rdf-schema#label> "White wine"@en .
+# 
+# http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#Wine
+<http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#Wine> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#Wine> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#Beverage> .
+<http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#Wine> <http://www.w3.org/2000/01/rdf-schema#comment> "A class that represents the concept of wine in the tasting domain"@en .
+<http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#Wine> <http://www.w3.org/2000/01/rdf-schema#comment> "Una clase que representa el concepto de vino en el dominio de las catas"@es .
+<http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#Wine> <http://www.w3.org/2000/01/rdf-schema#label> "Vino"@es .
+<http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#Wine> <http://www.w3.org/2000/01/rdf-schema#label> "Wine"@en .
+# 
+# http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#YellowTea
+<http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#YellowTea> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#YellowTea> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#Tea> .
+<http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#YellowTea> <http://purl.org/dc/dcam/rangeIncludes> "Una clase que representa el concepto de té amarillo en el dominio de las catas"@es .
+<http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#YellowTea> <http://www.w3.org/2000/01/rdf-schema#comment> "A class that represents the concept of yellow tea in the tasting domain"@en .
+<http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#YellowTea> <http://www.w3.org/2000/01/rdf-schema#label> "Té amarillo"@es .
+<http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#YellowTea> <http://www.w3.org/2000/01/rdf-schema#label> "Yellow tea"@en .
+# 
+# Generated by the OWL API (version 5.1.18) https://github.com/owlcs/owlapi/

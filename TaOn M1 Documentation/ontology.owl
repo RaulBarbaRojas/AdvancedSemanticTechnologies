@@ -1,9 +1,9 @@
 <?xml version="1.0"?>
-<rdf:RDF xmlns="http://www.semanticweb.org/usuario/ontologies/2024/2/taon/"
-     xml:base="http://www.semanticweb.org/usuario/ontologies/2024/2/taon/"
+<rdf:RDF xmlns="http://www.semanticweb.org/usuario/ontologies/2024/2/taon#"
+     xml:base="http://www.semanticweb.org/usuario/ontologies/2024/2/taon"
      xmlns:dc="http://purl.org/dc/elements/1.1/"
-     xmlns:ns="http://creativecommons.org/ns#"
-     xmlns:ns1="http://www.w3.org/2003/06/sw-vocab-status/ns#"
+     xmlns:ns="http://www.w3.org/2003/06/sw-vocab-status/ns#"
+     xmlns:ns1="http://creativecommons.org/ns#"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:wot="http://xmlns.com/wot/0.1/"
@@ -20,7 +20,7 @@
         <owl:imports rdf:resource="http://www.w3.org/ns/lemon/ontolex"/>
         <owl:imports rdf:resource="http://www.w3.org/ns/lemon/vartrans"/>
         <owl:imports rdf:resource="http://xmlns.com/foaf/0.1/"/>
-        <ns:license xml:lang="en">This work is licensed under the Creative Commons Attribution 4.0 International License. To view a copy of this license, visit http://creativecommons.org/licenses/by/4.0/ or send a letter to Creative Commons, PO Box 1866, Mountain View, CA 94042, USA.</ns:license>
+        <ns1:license xml:lang="en">This work is licensed under the Creative Commons Attribution 4.0 International License. To view a copy of this license, visit http://creativecommons.org/licenses/by/4.0/ or send a letter to Creative Commons, PO Box 1866, Mountain View, CA 94042, USA.</ns1:license>
     </owl:Ontology>
     
 
@@ -33,10 +33,12 @@
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 
+
     
 
 
     <!-- http://creativecommons.org/ns#licence -->
+
 
     <owl:AnnotationProperty rdf:about="http://creativecommons.org/ns#licence"/>
     
@@ -44,11 +46,13 @@
 
     <!-- http://creativecommons.org/ns#license -->
 
+
     <owl:AnnotationProperty rdf:about="http://creativecommons.org/ns#license"/>
     
 
 
     <!-- http://purl.org/dc/dcam/domainIncludes -->
+
 
     <owl:AnnotationProperty rdf:about="http://purl.org/dc/dcam/domainIncludes"/>
     
@@ -56,11 +60,13 @@
 
     <!-- http://purl.org/dc/dcam/rangeIncludes -->
 
+
     <owl:AnnotationProperty rdf:about="http://purl.org/dc/dcam/rangeIncludes"/>
     
 
 
     <!-- http://purl.org/dc/elements/1.1/contributor -->
+
 
     <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/contributor"/>
     
@@ -68,11 +74,13 @@
 
     <!-- http://purl.org/dc/elements/1.1/coverage -->
 
+
     <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/coverage"/>
     
 
 
     <!-- http://purl.org/dc/elements/1.1/creator -->
+
 
     <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/creator"/>
     
@@ -80,11 +88,13 @@
 
     <!-- http://purl.org/dc/elements/1.1/format -->
 
+
     <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/format"/>
     
 
 
     <!-- http://purl.org/dc/elements/1.1/identifier -->
+
 
     <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/identifier"/>
     
@@ -92,11 +102,13 @@
 
     <!-- http://purl.org/dc/elements/1.1/issued -->
 
+
     <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/issued"/>
     
 
 
     <!-- http://purl.org/dc/elements/1.1/language -->
+
 
     <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/language"/>
     
@@ -104,11 +116,13 @@
 
     <!-- http://purl.org/dc/elements/1.1/modified -->
 
+
     <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/modified"/>
     
 
 
     <!-- http://purl.org/dc/elements/1.1/publisher -->
+
 
     <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/publisher"/>
     
@@ -116,11 +130,13 @@
 
     <!-- http://purl.org/dc/elements/1.1/relation -->
 
+
     <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/relation"/>
     
 
 
     <!-- http://purl.org/dc/elements/1.1/rights -->
+
 
     <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/rights"/>
     
@@ -128,11 +144,13 @@
 
     <!-- http://purl.org/dc/elements/1.1/source -->
 
+
     <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/source"/>
     
 
 
     <!-- http://purl.org/dc/elements/1.1/subject -->
+
 
     <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/subject"/>
     
@@ -140,11 +158,13 @@
 
     <!-- http://purl.org/dc/elements/1.1/type -->
 
+
     <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/type"/>
     
 
 
     <!-- http://purl.org/dc/terms/abstract -->
+
 
     <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/abstract">
         <rdfs:subPropertyOf rdf:resource="http://purl.org/dc/elements/1.1/description"/>
@@ -155,6 +175,7 @@
 
     <!-- http://purl.org/dc/terms/accessRights -->
 
+
     <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/accessRights">
         <rdfs:subPropertyOf rdf:resource="http://purl.org/dc/elements/1.1/rights"/>
         <rdfs:subPropertyOf rdf:resource="http://purl.org/dc/terms/rights"/>
@@ -164,6 +185,7 @@
 
     <!-- http://purl.org/dc/terms/accrualMethod -->
 
+
     <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/accrualMethod">
         <rdfs:domain rdf:resource="http://purl.org/dc/dcmitype/Collection"/>
     </owl:AnnotationProperty>
@@ -171,6 +193,7 @@
 
 
     <!-- http://purl.org/dc/terms/accrualPeriodicity -->
+
 
     <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/accrualPeriodicity">
         <rdfs:domain rdf:resource="http://purl.org/dc/dcmitype/Collection"/>
@@ -180,6 +203,7 @@
 
     <!-- http://purl.org/dc/terms/accrualPolicy -->
 
+
     <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/accrualPolicy">
         <rdfs:domain rdf:resource="http://purl.org/dc/dcmitype/Collection"/>
     </owl:AnnotationProperty>
@@ -187,6 +211,7 @@
 
 
     <!-- http://purl.org/dc/terms/alternative -->
+
 
     <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/alternative">
         <rdfs:subPropertyOf rdf:resource="http://purl.org/dc/elements/1.1/title"/>
@@ -197,11 +222,13 @@
 
     <!-- http://purl.org/dc/terms/audience -->
 
+
     <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/audience"/>
     
 
 
     <!-- http://purl.org/dc/terms/available -->
+
 
     <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/available">
         <rdfs:subPropertyOf rdf:resource="http://purl.org/dc/elements/1.1/date"/>
@@ -212,6 +239,7 @@
 
     <!-- http://purl.org/dc/terms/bibliographicCitation -->
 
+
     <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/bibliographicCitation">
         <rdfs:subPropertyOf rdf:resource="http://purl.org/dc/elements/1.1/identifier"/>
         <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
@@ -220,6 +248,7 @@
 
 
     <!-- http://purl.org/dc/terms/conformsTo -->
+
 
     <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/conformsTo">
         <rdfs:subPropertyOf rdf:resource="http://purl.org/dc/elements/1.1/relation"/>
@@ -230,6 +259,7 @@
 
     <!-- http://purl.org/dc/terms/contributor -->
 
+
     <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/contributor">
         <rdfs:subPropertyOf rdf:resource="http://purl.org/dc/elements/1.1/contributor"/>
     </owl:AnnotationProperty>
@@ -238,6 +268,7 @@
 
     <!-- http://purl.org/dc/terms/coverage -->
 
+
     <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/coverage">
         <rdfs:subPropertyOf rdf:resource="http://purl.org/dc/elements/1.1/coverage"/>
     </owl:AnnotationProperty>
@@ -245,6 +276,7 @@
 
 
     <!-- http://purl.org/dc/terms/created -->
+
 
     <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/created">
         <rdfs:subPropertyOf rdf:resource="http://purl.org/dc/elements/1.1/date"/>
@@ -255,6 +287,7 @@
 
     <!-- http://purl.org/dc/terms/creator -->
 
+
     <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/creator">
         <rdfs:subPropertyOf rdf:resource="http://purl.org/dc/elements/1.1/creator"/>
         <rdfs:subPropertyOf rdf:resource="http://purl.org/dc/terms/contributor"/>
@@ -263,6 +296,7 @@
 
 
     <!-- http://purl.org/dc/terms/date -->
+
 
     <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/date">
         <rdfs:subPropertyOf rdf:resource="http://purl.org/dc/elements/1.1/date"/>
@@ -273,6 +307,7 @@
 
     <!-- http://purl.org/dc/terms/dateAccepted -->
 
+
     <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/dateAccepted">
         <rdfs:subPropertyOf rdf:resource="http://purl.org/dc/elements/1.1/date"/>
         <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
@@ -281,6 +316,7 @@
 
 
     <!-- http://purl.org/dc/terms/dateCopyrighted -->
+
 
     <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/dateCopyrighted">
         <rdfs:subPropertyOf rdf:resource="http://purl.org/dc/elements/1.1/date"/>
@@ -291,6 +327,7 @@
 
     <!-- http://purl.org/dc/terms/dateSubmitted -->
 
+
     <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/dateSubmitted">
         <rdfs:subPropertyOf rdf:resource="http://purl.org/dc/elements/1.1/date"/>
         <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
@@ -300,6 +337,7 @@
 
     <!-- http://purl.org/dc/terms/description -->
 
+
     <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/description">
         <rdfs:subPropertyOf rdf:resource="http://purl.org/dc/elements/1.1/description"/>
     </owl:AnnotationProperty>
@@ -308,6 +346,7 @@
 
     <!-- http://purl.org/dc/terms/educationLevel -->
 
+
     <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/educationLevel">
         <rdfs:subPropertyOf rdf:resource="http://purl.org/dc/terms/audience"/>
     </owl:AnnotationProperty>
@@ -315,6 +354,7 @@
 
 
     <!-- http://purl.org/dc/terms/extent -->
+
 
     <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/extent">
         <rdfs:subPropertyOf rdf:resource="http://purl.org/dc/elements/1.1/format"/>
@@ -325,6 +365,7 @@
 
     <!-- http://purl.org/dc/terms/format -->
 
+
     <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/format">
         <rdfs:subPropertyOf rdf:resource="http://purl.org/dc/elements/1.1/format"/>
     </owl:AnnotationProperty>
@@ -332,6 +373,7 @@
 
 
     <!-- http://purl.org/dc/terms/hasFormat -->
+
 
     <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/hasFormat">
         <rdfs:subPropertyOf rdf:resource="http://purl.org/dc/elements/1.1/relation"/>
@@ -342,6 +384,7 @@
 
     <!-- http://purl.org/dc/terms/hasPart -->
 
+
     <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/hasPart">
         <rdfs:subPropertyOf rdf:resource="http://purl.org/dc/elements/1.1/relation"/>
         <rdfs:subPropertyOf rdf:resource="http://purl.org/dc/terms/relation"/>
@@ -350,6 +393,7 @@
 
 
     <!-- http://purl.org/dc/terms/hasVersion -->
+
 
     <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/hasVersion">
         <rdfs:subPropertyOf rdf:resource="http://purl.org/dc/elements/1.1/relation"/>
@@ -360,6 +404,7 @@
 
     <!-- http://purl.org/dc/terms/identifier -->
 
+
     <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/identifier">
         <rdfs:subPropertyOf rdf:resource="http://purl.org/dc/elements/1.1/identifier"/>
         <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
@@ -368,6 +413,7 @@
 
 
     <!-- http://purl.org/dc/terms/isFormatOf -->
+
 
     <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/isFormatOf">
         <rdfs:subPropertyOf rdf:resource="http://purl.org/dc/elements/1.1/relation"/>
@@ -378,6 +424,7 @@
 
     <!-- http://purl.org/dc/terms/isPartOf -->
 
+
     <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/isPartOf">
         <rdfs:subPropertyOf rdf:resource="http://purl.org/dc/elements/1.1/relation"/>
         <rdfs:subPropertyOf rdf:resource="http://purl.org/dc/terms/relation"/>
@@ -386,6 +433,7 @@
 
 
     <!-- http://purl.org/dc/terms/isReferencedBy -->
+
 
     <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/isReferencedBy">
         <rdfs:subPropertyOf rdf:resource="http://purl.org/dc/elements/1.1/relation"/>
@@ -396,6 +444,7 @@
 
     <!-- http://purl.org/dc/terms/isReplacedBy -->
 
+
     <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/isReplacedBy">
         <rdfs:subPropertyOf rdf:resource="http://purl.org/dc/elements/1.1/relation"/>
         <rdfs:subPropertyOf rdf:resource="http://purl.org/dc/terms/relation"/>
@@ -404,6 +453,7 @@
 
 
     <!-- http://purl.org/dc/terms/isRequiredBy -->
+
 
     <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/isRequiredBy">
         <rdfs:subPropertyOf rdf:resource="http://purl.org/dc/elements/1.1/relation"/>
@@ -414,6 +464,7 @@
 
     <!-- http://purl.org/dc/terms/isVersionOf -->
 
+
     <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/isVersionOf">
         <rdfs:subPropertyOf rdf:resource="http://purl.org/dc/elements/1.1/relation"/>
         <rdfs:subPropertyOf rdf:resource="http://purl.org/dc/terms/relation"/>
@@ -422,6 +473,7 @@
 
 
     <!-- http://purl.org/dc/terms/issued -->
+
 
     <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/issued">
         <rdfs:subPropertyOf rdf:resource="http://purl.org/dc/elements/1.1/date"/>
@@ -432,6 +484,7 @@
 
     <!-- http://purl.org/dc/terms/language -->
 
+
     <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/language">
         <rdfs:subPropertyOf rdf:resource="http://purl.org/dc/elements/1.1/language"/>
     </owl:AnnotationProperty>
@@ -439,6 +492,7 @@
 
 
     <!-- http://purl.org/dc/terms/license -->
+
 
     <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/license">
         <rdfs:subPropertyOf rdf:resource="http://purl.org/dc/elements/1.1/rights"/>
@@ -449,6 +503,7 @@
 
     <!-- http://purl.org/dc/terms/mediator -->
 
+
     <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/mediator">
         <rdfs:subPropertyOf rdf:resource="http://purl.org/dc/terms/audience"/>
     </owl:AnnotationProperty>
@@ -456,6 +511,7 @@
 
 
     <!-- http://purl.org/dc/terms/medium -->
+
 
     <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/medium">
         <rdfs:subPropertyOf rdf:resource="http://purl.org/dc/elements/1.1/format"/>
@@ -466,6 +522,7 @@
 
     <!-- http://purl.org/dc/terms/modified -->
 
+
     <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/modified">
         <rdfs:subPropertyOf rdf:resource="http://purl.org/dc/elements/1.1/date"/>
         <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
@@ -475,6 +532,7 @@
 
     <!-- http://purl.org/dc/terms/publisher -->
 
+
     <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/publisher">
         <rdfs:subPropertyOf rdf:resource="http://purl.org/dc/elements/1.1/publisher"/>
     </owl:AnnotationProperty>
@@ -482,6 +540,7 @@
 
 
     <!-- http://purl.org/dc/terms/references -->
+
 
     <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/references">
         <rdfs:subPropertyOf rdf:resource="http://purl.org/dc/elements/1.1/relation"/>
@@ -492,6 +551,7 @@
 
     <!-- http://purl.org/dc/terms/relation -->
 
+
     <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/relation">
         <rdfs:subPropertyOf rdf:resource="http://purl.org/dc/elements/1.1/relation"/>
     </owl:AnnotationProperty>
@@ -499,6 +559,7 @@
 
 
     <!-- http://purl.org/dc/terms/replaces -->
+
 
     <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/replaces">
         <rdfs:subPropertyOf rdf:resource="http://purl.org/dc/elements/1.1/relation"/>
@@ -509,6 +570,7 @@
 
     <!-- http://purl.org/dc/terms/requires -->
 
+
     <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/requires">
         <rdfs:subPropertyOf rdf:resource="http://purl.org/dc/elements/1.1/relation"/>
         <rdfs:subPropertyOf rdf:resource="http://purl.org/dc/terms/relation"/>
@@ -518,6 +580,7 @@
 
     <!-- http://purl.org/dc/terms/rights -->
 
+
     <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/rights">
         <rdfs:subPropertyOf rdf:resource="http://purl.org/dc/elements/1.1/rights"/>
     </owl:AnnotationProperty>
@@ -525,6 +588,7 @@
 
 
     <!-- http://purl.org/dc/terms/source -->
+
 
     <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/source">
         <rdfs:subPropertyOf rdf:resource="http://purl.org/dc/elements/1.1/source"/>
@@ -535,6 +599,7 @@
 
     <!-- http://purl.org/dc/terms/spatial -->
 
+
     <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/spatial">
         <rdfs:subPropertyOf rdf:resource="http://purl.org/dc/elements/1.1/coverage"/>
         <rdfs:subPropertyOf rdf:resource="http://purl.org/dc/terms/coverage"/>
@@ -544,6 +609,7 @@
 
     <!-- http://purl.org/dc/terms/subject -->
 
+
     <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/subject">
         <rdfs:subPropertyOf rdf:resource="http://purl.org/dc/elements/1.1/subject"/>
     </owl:AnnotationProperty>
@@ -551,6 +617,7 @@
 
 
     <!-- http://purl.org/dc/terms/tableOfContents -->
+
 
     <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/tableOfContents">
         <rdfs:subPropertyOf rdf:resource="http://purl.org/dc/elements/1.1/description"/>
@@ -561,6 +628,7 @@
 
     <!-- http://purl.org/dc/terms/temporal -->
 
+
     <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/temporal">
         <rdfs:subPropertyOf rdf:resource="http://purl.org/dc/elements/1.1/coverage"/>
         <rdfs:subPropertyOf rdf:resource="http://purl.org/dc/terms/coverage"/>
@@ -569,6 +637,7 @@
 
 
     <!-- http://purl.org/dc/terms/title -->
+
 
     <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/title">
         <rdfs:subPropertyOf rdf:resource="http://purl.org/dc/elements/1.1/title"/>
@@ -579,6 +648,7 @@
 
     <!-- http://purl.org/dc/terms/type -->
 
+
     <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/type">
         <rdfs:subPropertyOf rdf:resource="http://purl.org/dc/elements/1.1/type"/>
     </owl:AnnotationProperty>
@@ -586,6 +656,7 @@
 
 
     <!-- http://purl.org/dc/terms/valid -->
+
 
     <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/valid">
         <rdfs:subPropertyOf rdf:resource="http://purl.org/dc/elements/1.1/date"/>
@@ -596,11 +667,13 @@
 
     <!-- http://purl.org/vocab/vann/preferredNamespacePrefix -->
 
+
     <owl:AnnotationProperty rdf:about="http://purl.org/vocab/vann/preferredNamespacePrefix"/>
     
 
 
     <!-- http://purl.org/vocab/vann/preferredNamespaceUri -->
+
 
     <owl:AnnotationProperty rdf:about="http://purl.org/vocab/vann/preferredNamespaceUri"/>
     
@@ -608,11 +681,13 @@
 
     <!-- http://www.w3.org/ns/lemon/vartrans#imports -->
 
+
     <owl:AnnotationProperty rdf:about="http://www.w3.org/ns/lemon/vartrans#imports"/>
     
 
 
     <!-- http://www.w3.org/ns/lemon/vartrans#versionInfo -->
+
 
     <owl:AnnotationProperty rdf:about="http://www.w3.org/ns/lemon/vartrans#versionInfo"/>
     
@@ -626,10 +701,12 @@
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 
+
     
 
 
     <!-- http://purl.org/dc/terms/Box -->
+
 
     <rdfs:Datatype rdf:about="http://purl.org/dc/terms/Box"/>
     
@@ -637,11 +714,13 @@
 
     <!-- http://purl.org/dc/terms/ISO3166 -->
 
+
     <rdfs:Datatype rdf:about="http://purl.org/dc/terms/ISO3166"/>
     
 
 
     <!-- http://purl.org/dc/terms/ISO639-2 -->
+
 
     <rdfs:Datatype rdf:about="http://purl.org/dc/terms/ISO639-2"/>
     
@@ -649,11 +728,13 @@
 
     <!-- http://purl.org/dc/terms/ISO639-3 -->
 
+
     <rdfs:Datatype rdf:about="http://purl.org/dc/terms/ISO639-3"/>
     
 
 
     <!-- http://purl.org/dc/terms/Period -->
+
 
     <rdfs:Datatype rdf:about="http://purl.org/dc/terms/Period"/>
     
@@ -661,11 +742,13 @@
 
     <!-- http://purl.org/dc/terms/Point -->
 
+
     <rdfs:Datatype rdf:about="http://purl.org/dc/terms/Point"/>
     
 
 
     <!-- http://purl.org/dc/terms/RFC1766 -->
+
 
     <rdfs:Datatype rdf:about="http://purl.org/dc/terms/RFC1766"/>
     
@@ -673,11 +756,13 @@
 
     <!-- http://purl.org/dc/terms/RFC3066 -->
 
+
     <rdfs:Datatype rdf:about="http://purl.org/dc/terms/RFC3066"/>
     
 
 
     <!-- http://purl.org/dc/terms/RFC4646 -->
+
 
     <rdfs:Datatype rdf:about="http://purl.org/dc/terms/RFC4646"/>
     
@@ -685,11 +770,13 @@
 
     <!-- http://purl.org/dc/terms/RFC5646 -->
 
+
     <rdfs:Datatype rdf:about="http://purl.org/dc/terms/RFC5646"/>
     
 
 
     <!-- http://purl.org/dc/terms/URI -->
+
 
     <rdfs:Datatype rdf:about="http://purl.org/dc/terms/URI"/>
     
@@ -697,11 +784,13 @@
 
     <!-- http://purl.org/dc/terms/W3CDTF -->
 
+
     <rdfs:Datatype rdf:about="http://purl.org/dc/terms/W3CDTF"/>
     
 
 
     <!-- http://www.w3.org/2001/XMLSchema#date -->
+
 
     <rdfs:Datatype rdf:about="http://www.w3.org/2001/XMLSchema#date"/>
     
@@ -715,10 +804,12 @@
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 
+
     
 
 
     <!-- http://www.semanticweb.org/usuario/ontologies/2024/2/taon#createdBy -->
+
 
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/usuario/ontologies/2024/2/taon#createdBy">
         <rdfs:domain rdf:resource="http://www.semanticweb.org/usuario/ontologies/2024/2/taon#Tasting"/>
@@ -733,6 +824,7 @@
 
     <!-- http://www.semanticweb.org/usuario/ontologies/2024/2/taon#evaluatedBy -->
 
+
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/usuario/ontologies/2024/2/taon#evaluatedBy">
         <rdfs:domain rdf:resource="http://www.semanticweb.org/usuario/ontologies/2024/2/taon#Tasting"/>
         <rdfs:range rdf:resource="http://www.semanticweb.org/usuario/ontologies/2024/2/taon#Evaluator"/>
@@ -745,6 +837,7 @@
 
 
     <!-- http://www.semanticweb.org/usuario/ontologies/2024/2/taon#participates -->
+
 
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/usuario/ontologies/2024/2/taon#participates">
         <rdfs:domain rdf:resource="http://www.semanticweb.org/usuario/ontologies/2024/2/taon#Tasting"/>
@@ -765,10 +858,12 @@
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 
+
     
 
 
     <!-- http://purl.org/dc/terms/alternative -->
+
 
     <owl:DatatypeProperty rdf:about="http://purl.org/dc/terms/alternative">
         <rdfs:subPropertyOf rdf:resource="http://purl.org/dc/terms/title"/>
@@ -778,6 +873,7 @@
 
     <!-- http://purl.org/dc/terms/available -->
 
+
     <owl:DatatypeProperty rdf:about="http://purl.org/dc/terms/available">
         <rdfs:subPropertyOf rdf:resource="http://purl.org/dc/terms/date"/>
     </owl:DatatypeProperty>
@@ -785,6 +881,7 @@
 
 
     <!-- http://purl.org/dc/terms/bibliographicCitation -->
+
 
     <owl:DatatypeProperty rdf:about="http://purl.org/dc/terms/bibliographicCitation">
         <rdfs:subPropertyOf rdf:resource="http://purl.org/dc/terms/identifier"/>
@@ -794,6 +891,7 @@
 
     <!-- http://purl.org/dc/terms/created -->
 
+
     <owl:DatatypeProperty rdf:about="http://purl.org/dc/terms/created">
         <rdfs:subPropertyOf rdf:resource="http://purl.org/dc/terms/date"/>
     </owl:DatatypeProperty>
@@ -802,11 +900,13 @@
 
     <!-- http://purl.org/dc/terms/date -->
 
+
     <owl:DatatypeProperty rdf:about="http://purl.org/dc/terms/date"/>
     
 
 
     <!-- http://purl.org/dc/terms/dateAccepted -->
+
 
     <owl:DatatypeProperty rdf:about="http://purl.org/dc/terms/dateAccepted">
         <rdfs:subPropertyOf rdf:resource="http://purl.org/dc/terms/date"/>
@@ -816,6 +916,7 @@
 
     <!-- http://purl.org/dc/terms/dateCopyrighted -->
 
+
     <owl:DatatypeProperty rdf:about="http://purl.org/dc/terms/dateCopyrighted">
         <rdfs:subPropertyOf rdf:resource="http://purl.org/dc/terms/date"/>
     </owl:DatatypeProperty>
@@ -823,6 +924,7 @@
 
 
     <!-- http://purl.org/dc/terms/dateSubmitted -->
+
 
     <owl:DatatypeProperty rdf:about="http://purl.org/dc/terms/dateSubmitted">
         <rdfs:subPropertyOf rdf:resource="http://purl.org/dc/terms/date"/>
@@ -832,11 +934,13 @@
 
     <!-- http://purl.org/dc/terms/identifier -->
 
+
     <owl:DatatypeProperty rdf:about="http://purl.org/dc/terms/identifier"/>
     
 
 
     <!-- http://purl.org/dc/terms/issued -->
+
 
     <owl:DatatypeProperty rdf:about="http://purl.org/dc/terms/issued">
         <rdfs:subPropertyOf rdf:resource="http://purl.org/dc/terms/date"/>
@@ -846,6 +950,7 @@
 
     <!-- http://purl.org/dc/terms/modified -->
 
+
     <owl:DatatypeProperty rdf:about="http://purl.org/dc/terms/modified">
         <rdfs:subPropertyOf rdf:resource="http://purl.org/dc/terms/date"/>
     </owl:DatatypeProperty>
@@ -854,11 +959,13 @@
 
     <!-- http://purl.org/dc/terms/title -->
 
+
     <owl:DatatypeProperty rdf:about="http://purl.org/dc/terms/title"/>
     
 
 
     <!-- http://purl.org/dc/terms/valid -->
+
 
     <owl:DatatypeProperty rdf:about="http://purl.org/dc/terms/valid">
         <rdfs:subPropertyOf rdf:resource="http://purl.org/dc/terms/date"/>
@@ -867,6 +974,7 @@
 
 
     <!-- http://www.semanticweb.org/usuario/ontologies/2024/2/taon#tastingEvaluation -->
+
 
     <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/usuario/ontologies/2024/2/taon#tastingEvaluation">
         <rdfs:domain rdf:resource="http://www.semanticweb.org/usuario/ontologies/2024/2/taon#Tasting"/>
@@ -880,6 +988,7 @@
 
 
     <!-- http://www.semanticweb.org/usuario/ontologies/2024/2/taon#tastingName -->
+
 
     <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/usuario/ontologies/2024/2/taon#tastingName">
         <rdfs:domain rdf:resource="http://www.semanticweb.org/usuario/ontologies/2024/2/taon#Tasting"/>
@@ -900,10 +1009,12 @@
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 
+
     
 
 
     <!-- http://purl.org/dc/dcam/VocabularyEncodingScheme -->
+
 
     <owl:Class rdf:about="http://purl.org/dc/dcam/VocabularyEncodingScheme"/>
     
@@ -911,11 +1022,13 @@
 
     <!-- http://purl.org/dc/terms/Agent -->
 
+
     <owl:Class rdf:about="http://purl.org/dc/terms/Agent"/>
     
 
 
     <!-- http://purl.org/dc/terms/AgentClass -->
+
 
     <owl:Class rdf:about="http://purl.org/dc/terms/AgentClass">
         <rdfs:subClassOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
@@ -925,11 +1038,13 @@
 
     <!-- http://purl.org/dc/terms/BibliographicResource -->
 
+
     <owl:Class rdf:about="http://purl.org/dc/terms/BibliographicResource"/>
     
 
 
     <!-- http://purl.org/dc/terms/FileFormat -->
+
 
     <owl:Class rdf:about="http://purl.org/dc/terms/FileFormat">
         <rdfs:subClassOf rdf:resource="http://purl.org/dc/terms/MediaType"/>
@@ -939,11 +1054,13 @@
 
     <!-- http://purl.org/dc/terms/Frequency -->
 
+
     <owl:Class rdf:about="http://purl.org/dc/terms/Frequency"/>
     
 
 
     <!-- http://purl.org/dc/terms/Jurisdiction -->
+
 
     <owl:Class rdf:about="http://purl.org/dc/terms/Jurisdiction">
         <rdfs:subClassOf rdf:resource="http://purl.org/dc/terms/LocationPeriodOrJurisdiction"/>
@@ -953,6 +1070,7 @@
 
     <!-- http://purl.org/dc/terms/LicenseDocument -->
 
+
     <owl:Class rdf:about="http://purl.org/dc/terms/LicenseDocument">
         <rdfs:subClassOf rdf:resource="http://purl.org/dc/terms/RightsStatement"/>
     </owl:Class>
@@ -961,11 +1079,13 @@
 
     <!-- http://purl.org/dc/terms/LinguisticSystem -->
 
+
     <owl:Class rdf:about="http://purl.org/dc/terms/LinguisticSystem"/>
     
 
 
     <!-- http://purl.org/dc/terms/Location -->
+
 
     <owl:Class rdf:about="http://purl.org/dc/terms/Location">
         <rdfs:subClassOf rdf:resource="http://purl.org/dc/terms/LocationPeriodOrJurisdiction"/>
@@ -975,11 +1095,13 @@
 
     <!-- http://purl.org/dc/terms/LocationPeriodOrJurisdiction -->
 
+
     <owl:Class rdf:about="http://purl.org/dc/terms/LocationPeriodOrJurisdiction"/>
     
 
 
     <!-- http://purl.org/dc/terms/MediaType -->
+
 
     <owl:Class rdf:about="http://purl.org/dc/terms/MediaType">
         <rdfs:subClassOf rdf:resource="http://purl.org/dc/terms/MediaTypeOrExtent"/>
@@ -989,11 +1111,13 @@
 
     <!-- http://purl.org/dc/terms/MediaTypeOrExtent -->
 
+
     <owl:Class rdf:about="http://purl.org/dc/terms/MediaTypeOrExtent"/>
     
 
 
     <!-- http://purl.org/dc/terms/MethodOfAccrual -->
+
 
     <owl:Class rdf:about="http://purl.org/dc/terms/MethodOfAccrual"/>
     
@@ -1001,11 +1125,13 @@
 
     <!-- http://purl.org/dc/terms/MethodOfInstruction -->
 
+
     <owl:Class rdf:about="http://purl.org/dc/terms/MethodOfInstruction"/>
     
 
 
     <!-- http://purl.org/dc/terms/PeriodOfTime -->
+
 
     <owl:Class rdf:about="http://purl.org/dc/terms/PeriodOfTime">
         <rdfs:subClassOf rdf:resource="http://purl.org/dc/terms/LocationPeriodOrJurisdiction"/>
@@ -1015,6 +1141,7 @@
 
     <!-- http://purl.org/dc/terms/PhysicalMedium -->
 
+
     <owl:Class rdf:about="http://purl.org/dc/terms/PhysicalMedium">
         <rdfs:subClassOf rdf:resource="http://purl.org/dc/terms/MediaType"/>
     </owl:Class>
@@ -1023,11 +1150,13 @@
 
     <!-- http://purl.org/dc/terms/PhysicalResource -->
 
+
     <owl:Class rdf:about="http://purl.org/dc/terms/PhysicalResource"/>
     
 
 
     <!-- http://purl.org/dc/terms/Policy -->
+
 
     <owl:Class rdf:about="http://purl.org/dc/terms/Policy"/>
     
@@ -1035,17 +1164,20 @@
 
     <!-- http://purl.org/dc/terms/ProvenanceStatement -->
 
+
     <owl:Class rdf:about="http://purl.org/dc/terms/ProvenanceStatement"/>
     
 
 
     <!-- http://purl.org/dc/terms/RightsStatement -->
 
+
     <owl:Class rdf:about="http://purl.org/dc/terms/RightsStatement"/>
     
 
 
     <!-- http://purl.org/dc/terms/SizeOrDuration -->
+
 
     <owl:Class rdf:about="http://purl.org/dc/terms/SizeOrDuration">
         <rdfs:subClassOf rdf:resource="http://purl.org/dc/terms/MediaTypeOrExtent"/>
@@ -1055,11 +1187,13 @@
 
     <!-- http://purl.org/dc/terms/Standard -->
 
+
     <owl:Class rdf:about="http://purl.org/dc/terms/Standard"/>
     
 
 
     <!-- http://schema.org/CreativeWork -->
+
 
     <owl:Class rdf:about="http://schema.org/CreativeWork"/>
     
@@ -1067,17 +1201,20 @@
 
     <!-- http://schema.org/ImageObject -->
 
+
     <owl:Class rdf:about="http://schema.org/ImageObject"/>
     
 
 
     <!-- http://schema.org/Person -->
 
+
     <owl:Class rdf:about="http://schema.org/Person"/>
     
 
 
     <!-- http://www.semanticweb.org/usuario/ontologies/2024/2/taon#BlindTastingEvent -->
+
 
     <owl:Class rdf:about="http://www.semanticweb.org/usuario/ontologies/2024/2/taon#BlindTastingEvent">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/usuario/ontologies/2024/2/taon#TastingEvent"/>
@@ -1091,6 +1228,7 @@
 
     <!-- http://www.semanticweb.org/usuario/ontologies/2024/2/taon#Evaluator -->
 
+
     <owl:Class rdf:about="http://www.semanticweb.org/usuario/ontologies/2024/2/taon#Evaluator">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/usuario/ontologies/2024/2/taon#Person"/>
         <rdfs:comment xml:lang="en">A class that represents the person that evaluates tasting instances in a tasting event</rdfs:comment>
@@ -1102,6 +1240,7 @@
 
 
     <!-- http://www.semanticweb.org/usuario/ontologies/2024/2/taon#HorizontalTastingEvent -->
+
 
     <owl:Class rdf:about="http://www.semanticweb.org/usuario/ontologies/2024/2/taon#HorizontalTastingEvent">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/usuario/ontologies/2024/2/taon#TastingEvent"/>
@@ -1115,6 +1254,7 @@
 
     <!-- http://www.semanticweb.org/usuario/ontologies/2024/2/taon#Person -->
 
+
     <owl:Class rdf:about="http://www.semanticweb.org/usuario/ontologies/2024/2/taon#Person">
         <owl:equivalentClass rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
         <rdfs:comment xml:lang="en">A class that represents the generic concept of a person.</rdfs:comment>
@@ -1126,6 +1266,7 @@
 
 
     <!-- http://www.semanticweb.org/usuario/ontologies/2024/2/taon#Producer -->
+
 
     <owl:Class rdf:about="http://www.semanticweb.org/usuario/ontologies/2024/2/taon#Producer">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/usuario/ontologies/2024/2/taon#Person"/>
@@ -1139,6 +1280,7 @@
 
     <!-- http://www.semanticweb.org/usuario/ontologies/2024/2/taon#Tasting -->
 
+
     <owl:Class rdf:about="http://www.semanticweb.org/usuario/ontologies/2024/2/taon#Tasting">
         <rdfs:comment xml:lang="en">A class that represents the concept of &quot;Tasting&quot;, also known as &quot;Sampling&quot; in certain parts of the world.</rdfs:comment>
         <rdfs:comment xml:lang="es">Una clase creada para representar el concepto de &quot;cata&quot; en general.</rdfs:comment>
@@ -1150,6 +1292,7 @@
 
     <!-- http://www.semanticweb.org/usuario/ontologies/2024/2/taon#TastingEvent -->
 
+
     <owl:Class rdf:about="http://www.semanticweb.org/usuario/ontologies/2024/2/taon#TastingEvent">
         <rdfs:comment xml:lang="en">A class that represents the concept of a tasting event, where many tasting instances are created by producers and evaluated by evaluators.</rdfs:comment>
         <rdfs:comment xml:lang="es">Una clase que representa el concepto de evento de catas, donde los productores crean numerosas catas, que son evaluadas por evaluadores.</rdfs:comment>
@@ -1160,6 +1303,7 @@
 
 
     <!-- http://www.semanticweb.org/usuario/ontologies/2024/2/taon#VerticalTastingEvent -->
+
 
     <owl:Class rdf:about="http://www.semanticweb.org/usuario/ontologies/2024/2/taon#VerticalTastingEvent">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/usuario/ontologies/2024/2/taon#TastingEvent"/>
@@ -1173,11 +1317,13 @@
 
     <!-- http://www.w3.org/2000/01/rdf-schema#Resource -->
 
+
     <owl:Class rdf:about="http://www.w3.org/2000/01/rdf-schema#Resource"/>
     
 
 
     <!-- http://www.w3.org/2000/10/swap/pim/contact#Person -->
+
 
     <owl:Class rdf:about="http://www.w3.org/2000/10/swap/pim/contact#Person"/>
     
@@ -1191,10 +1337,12 @@
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 
+
     
 
 
     <!-- http://purl.org/dc/terms/ -->
+
 
     <owl:NamedIndividual rdf:about="http://purl.org/dc/terms/">
         <terms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2012-06-14</terms:modified>
@@ -1206,6 +1354,7 @@
 
     <!-- http://purl.org/dc/terms/Agent -->
 
+
     <owl:NamedIndividual rdf:about="http://purl.org/dc/terms/Agent">
         <rdf:type rdf:resource="http://purl.org/dc/terms/AgentClass"/>
     </owl:NamedIndividual>
@@ -1214,11 +1363,13 @@
 
     <!-- http://purl.org/dc/terms/AgentClass -->
 
+
     <owl:NamedIndividual rdf:about="http://purl.org/dc/terms/AgentClass"/>
     
 
 
     <!-- http://purl.org/dc/terms/BibliographicResource -->
+
 
     <owl:NamedIndividual rdf:about="http://purl.org/dc/terms/BibliographicResource"/>
     
@@ -1226,11 +1377,13 @@
 
     <!-- http://purl.org/dc/terms/Box -->
 
+
     <owl:NamedIndividual rdf:about="http://purl.org/dc/terms/Box"/>
     
 
 
     <!-- http://purl.org/dc/terms/DCMIType -->
+
 
     <owl:NamedIndividual rdf:about="http://purl.org/dc/terms/DCMIType">
         <rdf:type rdf:resource="http://purl.org/dc/dcam/VocabularyEncodingScheme"/>
@@ -1245,6 +1398,7 @@
 
     <!-- http://purl.org/dc/terms/DDC -->
 
+
     <owl:NamedIndividual rdf:about="http://purl.org/dc/terms/DDC">
         <rdf:type rdf:resource="http://purl.org/dc/dcam/VocabularyEncodingScheme"/>
         <terms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2000-07-11</terms:issued>
@@ -1258,17 +1412,20 @@
 
     <!-- http://purl.org/dc/terms/FileFormat -->
 
+
     <owl:NamedIndividual rdf:about="http://purl.org/dc/terms/FileFormat"/>
     
 
 
     <!-- http://purl.org/dc/terms/Frequency -->
 
+
     <owl:NamedIndividual rdf:about="http://purl.org/dc/terms/Frequency"/>
     
 
 
     <!-- http://purl.org/dc/terms/IMT -->
+
 
     <owl:NamedIndividual rdf:about="http://purl.org/dc/terms/IMT">
         <rdf:type rdf:resource="http://purl.org/dc/dcam/VocabularyEncodingScheme"/>
@@ -1283,11 +1440,13 @@
 
     <!-- http://purl.org/dc/terms/ISO3166 -->
 
+
     <owl:NamedIndividual rdf:about="http://purl.org/dc/terms/ISO3166"/>
     
 
 
     <!-- http://purl.org/dc/terms/ISO639-2 -->
+
 
     <owl:NamedIndividual rdf:about="http://purl.org/dc/terms/ISO639-2"/>
     
@@ -1295,17 +1454,20 @@
 
     <!-- http://purl.org/dc/terms/ISO639-3 -->
 
+
     <owl:NamedIndividual rdf:about="http://purl.org/dc/terms/ISO639-3"/>
     
 
 
     <!-- http://purl.org/dc/terms/Jurisdiction -->
 
+
     <owl:NamedIndividual rdf:about="http://purl.org/dc/terms/Jurisdiction"/>
     
 
 
     <!-- http://purl.org/dc/terms/LCC -->
+
 
     <owl:NamedIndividual rdf:about="http://purl.org/dc/terms/LCC">
         <rdf:type rdf:resource="http://purl.org/dc/dcam/VocabularyEncodingScheme"/>
@@ -1320,6 +1482,7 @@
 
     <!-- http://purl.org/dc/terms/LCSH -->
 
+
     <owl:NamedIndividual rdf:about="http://purl.org/dc/terms/LCSH">
         <rdf:type rdf:resource="http://purl.org/dc/dcam/VocabularyEncodingScheme"/>
         <terms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2000-07-11</terms:issued>
@@ -1332,11 +1495,13 @@
 
     <!-- http://purl.org/dc/terms/LicenseDocument -->
 
+
     <owl:NamedIndividual rdf:about="http://purl.org/dc/terms/LicenseDocument"/>
     
 
 
     <!-- http://purl.org/dc/terms/LinguisticSystem -->
+
 
     <owl:NamedIndividual rdf:about="http://purl.org/dc/terms/LinguisticSystem"/>
     
@@ -1344,17 +1509,20 @@
 
     <!-- http://purl.org/dc/terms/Location -->
 
+
     <owl:NamedIndividual rdf:about="http://purl.org/dc/terms/Location"/>
     
 
 
     <!-- http://purl.org/dc/terms/LocationPeriodOrJurisdiction -->
 
+
     <owl:NamedIndividual rdf:about="http://purl.org/dc/terms/LocationPeriodOrJurisdiction"/>
     
 
 
     <!-- http://purl.org/dc/terms/MESH -->
+
 
     <owl:NamedIndividual rdf:about="http://purl.org/dc/terms/MESH">
         <rdf:type rdf:resource="http://purl.org/dc/dcam/VocabularyEncodingScheme"/>
@@ -1369,11 +1537,13 @@
 
     <!-- http://purl.org/dc/terms/MediaType -->
 
+
     <owl:NamedIndividual rdf:about="http://purl.org/dc/terms/MediaType"/>
     
 
 
     <!-- http://purl.org/dc/terms/MediaTypeOrExtent -->
+
 
     <owl:NamedIndividual rdf:about="http://purl.org/dc/terms/MediaTypeOrExtent"/>
     
@@ -1381,17 +1551,20 @@
 
     <!-- http://purl.org/dc/terms/MethodOfAccrual -->
 
+
     <owl:NamedIndividual rdf:about="http://purl.org/dc/terms/MethodOfAccrual"/>
     
 
 
     <!-- http://purl.org/dc/terms/MethodOfInstruction -->
 
+
     <owl:NamedIndividual rdf:about="http://purl.org/dc/terms/MethodOfInstruction"/>
     
 
 
     <!-- http://purl.org/dc/terms/NLM -->
+
 
     <owl:NamedIndividual rdf:about="http://purl.org/dc/terms/NLM">
         <rdf:type rdf:resource="http://purl.org/dc/dcam/VocabularyEncodingScheme"/>
@@ -1406,11 +1579,13 @@
 
     <!-- http://purl.org/dc/terms/Period -->
 
+
     <owl:NamedIndividual rdf:about="http://purl.org/dc/terms/Period"/>
     
 
 
     <!-- http://purl.org/dc/terms/PeriodOfTime -->
+
 
     <owl:NamedIndividual rdf:about="http://purl.org/dc/terms/PeriodOfTime"/>
     
@@ -1418,11 +1593,13 @@
 
     <!-- http://purl.org/dc/terms/PhysicalMedium -->
 
+
     <owl:NamedIndividual rdf:about="http://purl.org/dc/terms/PhysicalMedium"/>
     
 
 
     <!-- http://purl.org/dc/terms/PhysicalResource -->
+
 
     <owl:NamedIndividual rdf:about="http://purl.org/dc/terms/PhysicalResource"/>
     
@@ -1430,11 +1607,13 @@
 
     <!-- http://purl.org/dc/terms/Point -->
 
+
     <owl:NamedIndividual rdf:about="http://purl.org/dc/terms/Point"/>
     
 
 
     <!-- http://purl.org/dc/terms/Policy -->
+
 
     <owl:NamedIndividual rdf:about="http://purl.org/dc/terms/Policy"/>
     
@@ -1442,11 +1621,13 @@
 
     <!-- http://purl.org/dc/terms/ProvenanceStatement -->
 
+
     <owl:NamedIndividual rdf:about="http://purl.org/dc/terms/ProvenanceStatement"/>
     
 
 
     <!-- http://purl.org/dc/terms/RFC1766 -->
+
 
     <owl:NamedIndividual rdf:about="http://purl.org/dc/terms/RFC1766"/>
     
@@ -1454,11 +1635,13 @@
 
     <!-- http://purl.org/dc/terms/RFC3066 -->
 
+
     <owl:NamedIndividual rdf:about="http://purl.org/dc/terms/RFC3066"/>
     
 
 
     <!-- http://purl.org/dc/terms/RFC4646 -->
+
 
     <owl:NamedIndividual rdf:about="http://purl.org/dc/terms/RFC4646"/>
     
@@ -1466,11 +1649,13 @@
 
     <!-- http://purl.org/dc/terms/RFC5646 -->
 
+
     <owl:NamedIndividual rdf:about="http://purl.org/dc/terms/RFC5646"/>
     
 
 
     <!-- http://purl.org/dc/terms/RightsStatement -->
+
 
     <owl:NamedIndividual rdf:about="http://purl.org/dc/terms/RightsStatement"/>
     
@@ -1478,17 +1663,20 @@
 
     <!-- http://purl.org/dc/terms/SizeOrDuration -->
 
+
     <owl:NamedIndividual rdf:about="http://purl.org/dc/terms/SizeOrDuration"/>
     
 
 
     <!-- http://purl.org/dc/terms/Standard -->
 
+
     <owl:NamedIndividual rdf:about="http://purl.org/dc/terms/Standard"/>
     
 
 
     <!-- http://purl.org/dc/terms/TGN -->
+
 
     <owl:NamedIndividual rdf:about="http://purl.org/dc/terms/TGN">
         <rdf:type rdf:resource="http://purl.org/dc/dcam/VocabularyEncodingScheme"/>
@@ -1503,6 +1691,7 @@
 
     <!-- http://purl.org/dc/terms/UDC -->
 
+
     <owl:NamedIndividual rdf:about="http://purl.org/dc/terms/UDC">
         <rdf:type rdf:resource="http://purl.org/dc/dcam/VocabularyEncodingScheme"/>
         <terms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2000-07-11</terms:issued>
@@ -1516,11 +1705,13 @@
 
     <!-- http://purl.org/dc/terms/URI -->
 
+
     <owl:NamedIndividual rdf:about="http://purl.org/dc/terms/URI"/>
     
 
 
     <!-- http://purl.org/dc/terms/W3CDTF -->
+
 
     <owl:NamedIndividual rdf:about="http://purl.org/dc/terms/W3CDTF"/>
     
@@ -1528,11 +1719,13 @@
 
     <!-- http://purl.org/dc/terms/abstract -->
 
+
     <owl:NamedIndividual rdf:about="http://purl.org/dc/terms/abstract"/>
     
 
 
     <!-- http://purl.org/dc/terms/accessRights -->
+
 
     <owl:NamedIndividual rdf:about="http://purl.org/dc/terms/accessRights"/>
     
@@ -1540,11 +1733,13 @@
 
     <!-- http://purl.org/dc/terms/accrualMethod -->
 
+
     <owl:NamedIndividual rdf:about="http://purl.org/dc/terms/accrualMethod"/>
     
 
 
     <!-- http://purl.org/dc/terms/accrualPeriodicity -->
+
 
     <owl:NamedIndividual rdf:about="http://purl.org/dc/terms/accrualPeriodicity"/>
     
@@ -1552,11 +1747,13 @@
 
     <!-- http://purl.org/dc/terms/accrualPolicy -->
 
+
     <owl:NamedIndividual rdf:about="http://purl.org/dc/terms/accrualPolicy"/>
     
 
 
     <!-- http://purl.org/dc/terms/alternative -->
+
 
     <owl:NamedIndividual rdf:about="http://purl.org/dc/terms/alternative"/>
     
@@ -1564,11 +1761,13 @@
 
     <!-- http://purl.org/dc/terms/audience -->
 
+
     <owl:NamedIndividual rdf:about="http://purl.org/dc/terms/audience"/>
     
 
 
     <!-- http://purl.org/dc/terms/available -->
+
 
     <owl:NamedIndividual rdf:about="http://purl.org/dc/terms/available"/>
     
@@ -1576,11 +1775,13 @@
 
     <!-- http://purl.org/dc/terms/bibliographicCitation -->
 
+
     <owl:NamedIndividual rdf:about="http://purl.org/dc/terms/bibliographicCitation"/>
     
 
 
     <!-- http://purl.org/dc/terms/conformsTo -->
+
 
     <owl:NamedIndividual rdf:about="http://purl.org/dc/terms/conformsTo"/>
     
@@ -1588,11 +1789,13 @@
 
     <!-- http://purl.org/dc/terms/contributor -->
 
+
     <owl:NamedIndividual rdf:about="http://purl.org/dc/terms/contributor"/>
     
 
 
     <!-- http://purl.org/dc/terms/coverage -->
+
 
     <owl:NamedIndividual rdf:about="http://purl.org/dc/terms/coverage"/>
     
@@ -1600,11 +1803,13 @@
 
     <!-- http://purl.org/dc/terms/created -->
 
+
     <owl:NamedIndividual rdf:about="http://purl.org/dc/terms/created"/>
     
 
 
     <!-- http://purl.org/dc/terms/creator -->
+
 
     <owl:NamedIndividual rdf:about="http://purl.org/dc/terms/creator"/>
     
@@ -1612,11 +1817,13 @@
 
     <!-- http://purl.org/dc/terms/date -->
 
+
     <owl:NamedIndividual rdf:about="http://purl.org/dc/terms/date"/>
     
 
 
     <!-- http://purl.org/dc/terms/dateAccepted -->
+
 
     <owl:NamedIndividual rdf:about="http://purl.org/dc/terms/dateAccepted"/>
     
@@ -1624,11 +1831,13 @@
 
     <!-- http://purl.org/dc/terms/dateCopyrighted -->
 
+
     <owl:NamedIndividual rdf:about="http://purl.org/dc/terms/dateCopyrighted"/>
     
 
 
     <!-- http://purl.org/dc/terms/dateSubmitted -->
+
 
     <owl:NamedIndividual rdf:about="http://purl.org/dc/terms/dateSubmitted"/>
     
@@ -1636,11 +1845,13 @@
 
     <!-- http://purl.org/dc/terms/description -->
 
+
     <owl:NamedIndividual rdf:about="http://purl.org/dc/terms/description"/>
     
 
 
     <!-- http://purl.org/dc/terms/educationLevel -->
+
 
     <owl:NamedIndividual rdf:about="http://purl.org/dc/terms/educationLevel"/>
     
@@ -1648,11 +1859,13 @@
 
     <!-- http://purl.org/dc/terms/extent -->
 
+
     <owl:NamedIndividual rdf:about="http://purl.org/dc/terms/extent"/>
     
 
 
     <!-- http://purl.org/dc/terms/format -->
+
 
     <owl:NamedIndividual rdf:about="http://purl.org/dc/terms/format"/>
     
@@ -1660,11 +1873,13 @@
 
     <!-- http://purl.org/dc/terms/hasFormat -->
 
+
     <owl:NamedIndividual rdf:about="http://purl.org/dc/terms/hasFormat"/>
     
 
 
     <!-- http://purl.org/dc/terms/hasPart -->
+
 
     <owl:NamedIndividual rdf:about="http://purl.org/dc/terms/hasPart"/>
     
@@ -1672,17 +1887,20 @@
 
     <!-- http://purl.org/dc/terms/hasVersion -->
 
+
     <owl:NamedIndividual rdf:about="http://purl.org/dc/terms/hasVersion"/>
     
 
 
     <!-- http://purl.org/dc/terms/identifier -->
 
+
     <owl:NamedIndividual rdf:about="http://purl.org/dc/terms/identifier"/>
     
 
 
     <!-- http://purl.org/dc/terms/instructionalMethod -->
+
 
     <owl:NamedIndividual rdf:about="http://purl.org/dc/terms/instructionalMethod">
         <dcam:rangeIncludes rdf:resource="http://purl.org/dc/terms/MethodOfInstruction"/>
@@ -1697,11 +1915,13 @@
 
     <!-- http://purl.org/dc/terms/isFormatOf -->
 
+
     <owl:NamedIndividual rdf:about="http://purl.org/dc/terms/isFormatOf"/>
     
 
 
     <!-- http://purl.org/dc/terms/isPartOf -->
+
 
     <owl:NamedIndividual rdf:about="http://purl.org/dc/terms/isPartOf"/>
     
@@ -1709,11 +1929,13 @@
 
     <!-- http://purl.org/dc/terms/isReferencedBy -->
 
+
     <owl:NamedIndividual rdf:about="http://purl.org/dc/terms/isReferencedBy"/>
     
 
 
     <!-- http://purl.org/dc/terms/isReplacedBy -->
+
 
     <owl:NamedIndividual rdf:about="http://purl.org/dc/terms/isReplacedBy"/>
     
@@ -1721,11 +1943,13 @@
 
     <!-- http://purl.org/dc/terms/isRequiredBy -->
 
+
     <owl:NamedIndividual rdf:about="http://purl.org/dc/terms/isRequiredBy"/>
     
 
 
     <!-- http://purl.org/dc/terms/isVersionOf -->
+
 
     <owl:NamedIndividual rdf:about="http://purl.org/dc/terms/isVersionOf"/>
     
@@ -1733,11 +1957,13 @@
 
     <!-- http://purl.org/dc/terms/issued -->
 
+
     <owl:NamedIndividual rdf:about="http://purl.org/dc/terms/issued"/>
     
 
 
     <!-- http://purl.org/dc/terms/language -->
+
 
     <owl:NamedIndividual rdf:about="http://purl.org/dc/terms/language"/>
     
@@ -1745,11 +1971,13 @@
 
     <!-- http://purl.org/dc/terms/license -->
 
+
     <owl:NamedIndividual rdf:about="http://purl.org/dc/terms/license"/>
     
 
 
     <!-- http://purl.org/dc/terms/mediator -->
+
 
     <owl:NamedIndividual rdf:about="http://purl.org/dc/terms/mediator"/>
     
@@ -1757,17 +1985,20 @@
 
     <!-- http://purl.org/dc/terms/medium -->
 
+
     <owl:NamedIndividual rdf:about="http://purl.org/dc/terms/medium"/>
     
 
 
     <!-- http://purl.org/dc/terms/modified -->
 
+
     <owl:NamedIndividual rdf:about="http://purl.org/dc/terms/modified"/>
     
 
 
     <!-- http://purl.org/dc/terms/provenance -->
+
 
     <owl:NamedIndividual rdf:about="http://purl.org/dc/terms/provenance">
         <dcam:rangeIncludes rdf:resource="http://purl.org/dc/terms/ProvenanceStatement"/>
@@ -1782,11 +2013,13 @@
 
     <!-- http://purl.org/dc/terms/publisher -->
 
+
     <owl:NamedIndividual rdf:about="http://purl.org/dc/terms/publisher"/>
     
 
 
     <!-- http://purl.org/dc/terms/references -->
+
 
     <owl:NamedIndividual rdf:about="http://purl.org/dc/terms/references"/>
     
@@ -1794,11 +2027,13 @@
 
     <!-- http://purl.org/dc/terms/relation -->
 
+
     <owl:NamedIndividual rdf:about="http://purl.org/dc/terms/relation"/>
     
 
 
     <!-- http://purl.org/dc/terms/replaces -->
+
 
     <owl:NamedIndividual rdf:about="http://purl.org/dc/terms/replaces"/>
     
@@ -1806,17 +2041,20 @@
 
     <!-- http://purl.org/dc/terms/requires -->
 
+
     <owl:NamedIndividual rdf:about="http://purl.org/dc/terms/requires"/>
     
 
 
     <!-- http://purl.org/dc/terms/rights -->
 
+
     <owl:NamedIndividual rdf:about="http://purl.org/dc/terms/rights"/>
     
 
 
     <!-- http://purl.org/dc/terms/rightsHolder -->
+
 
     <owl:NamedIndividual rdf:about="http://purl.org/dc/terms/rightsHolder">
         <dcam:rangeIncludes rdf:resource="http://purl.org/dc/terms/Agent"/>
@@ -1831,11 +2069,13 @@
 
     <!-- http://purl.org/dc/terms/source -->
 
+
     <owl:NamedIndividual rdf:about="http://purl.org/dc/terms/source"/>
     
 
 
     <!-- http://purl.org/dc/terms/spatial -->
+
 
     <owl:NamedIndividual rdf:about="http://purl.org/dc/terms/spatial"/>
     
@@ -1843,11 +2083,13 @@
 
     <!-- http://purl.org/dc/terms/subject -->
 
+
     <owl:NamedIndividual rdf:about="http://purl.org/dc/terms/subject"/>
     
 
 
     <!-- http://purl.org/dc/terms/tableOfContents -->
+
 
     <owl:NamedIndividual rdf:about="http://purl.org/dc/terms/tableOfContents"/>
     
@@ -1855,11 +2097,13 @@
 
     <!-- http://purl.org/dc/terms/temporal -->
 
+
     <owl:NamedIndividual rdf:about="http://purl.org/dc/terms/temporal"/>
     
 
 
     <!-- http://purl.org/dc/terms/title -->
+
 
     <owl:NamedIndividual rdf:about="http://purl.org/dc/terms/title"/>
     
@@ -1867,17 +2111,20 @@
 
     <!-- http://purl.org/dc/terms/type -->
 
+
     <owl:NamedIndividual rdf:about="http://purl.org/dc/terms/type"/>
     
 
 
     <!-- http://purl.org/dc/terms/valid -->
 
+
     <owl:NamedIndividual rdf:about="http://purl.org/dc/terms/valid"/>
     
 
 
     <!-- http://www.semanticweb.org/usuario/ontologies/2024/2/taon#evaluatorConcept -->
+
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/usuario/ontologies/2024/2/taon#evaluatorConcept">
         <rdf:type rdf:resource="http://www.semanticweb.org/usuario/ontologies/2024/2/taon#Evaluator"/>
@@ -1886,6 +2133,7 @@
 
 
     <!-- http://www.semanticweb.org/usuario/ontologies/2024/2/taon#lexicalEntryEvaluatorEN -->
+
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/usuario/ontologies/2024/2/taon#lexicalEntryEvaluatorEN">
         <rdf:type rdf:resource="http://www.w3.org/ns/lemon/ontolex#LexicalEntry"/>
@@ -1897,6 +2145,7 @@
 
     <!-- http://www.semanticweb.org/usuario/ontologies/2024/2/taon#lexicalEntryEvaluatorES -->
 
+
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/usuario/ontologies/2024/2/taon#lexicalEntryEvaluatorES">
         <rdf:type rdf:resource="http://www.w3.org/ns/lemon/ontolex#LexicalEntry"/>
         <ontolex:lexicalForm rdf:resource="http://www.semanticweb.org/usuario/ontologies/2024/2/taon#lexicalFormEvaluatorES"/>
@@ -1906,6 +2155,7 @@
 
 
     <!-- http://www.semanticweb.org/usuario/ontologies/2024/2/taon#lexicalEntryProducerEN -->
+
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/usuario/ontologies/2024/2/taon#lexicalEntryProducerEN">
         <rdf:type rdf:resource="http://www.w3.org/ns/lemon/ontolex#LexicalEntry"/>
@@ -1917,6 +2167,7 @@
 
     <!-- http://www.semanticweb.org/usuario/ontologies/2024/2/taon#lexicalEntryProducerES -->
 
+
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/usuario/ontologies/2024/2/taon#lexicalEntryProducerES">
         <rdf:type rdf:resource="http://www.w3.org/ns/lemon/ontolex#LexicalEntry"/>
         <ontolex:lexicalForm rdf:resource="http://www.semanticweb.org/usuario/ontologies/2024/2/taon#lexicalFormProducerES"/>
@@ -1926,6 +2177,7 @@
 
 
     <!-- http://www.semanticweb.org/usuario/ontologies/2024/2/taon#lexicalEntryTastingEN -->
+
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/usuario/ontologies/2024/2/taon#lexicalEntryTastingEN">
         <rdf:type rdf:resource="http://www.w3.org/ns/lemon/ontolex#LexicalEntry"/>
@@ -1937,6 +2189,7 @@
 
     <!-- http://www.semanticweb.org/usuario/ontologies/2024/2/taon#lexicalEntryTastingES -->
 
+
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/usuario/ontologies/2024/2/taon#lexicalEntryTastingES">
         <rdf:type rdf:resource="http://www.w3.org/ns/lemon/ontolex#LexicalEntry"/>
         <ontolex:lexicalForm rdf:resource="http://www.semanticweb.org/usuario/ontologies/2024/2/taon#lexicalFormTastingES"/>
@@ -1946,6 +2199,7 @@
 
 
     <!-- http://www.semanticweb.org/usuario/ontologies/2024/2/taon#lexicalEntryTastingEventEN -->
+
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/usuario/ontologies/2024/2/taon#lexicalEntryTastingEventEN">
         <rdf:type rdf:resource="http://www.w3.org/ns/lemon/ontolex#LexicalEntry"/>
@@ -1957,6 +2211,7 @@
 
     <!-- http://www.semanticweb.org/usuario/ontologies/2024/2/taon#lexicalEntryTastingEventES -->
 
+
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/usuario/ontologies/2024/2/taon#lexicalEntryTastingEventES">
         <rdf:type rdf:resource="http://www.w3.org/ns/lemon/ontolex#LexicalEntry"/>
         <ontolex:lexicalForm rdf:resource="http://www.semanticweb.org/usuario/ontologies/2024/2/taon#lexicalFormTastingEventES"/>
@@ -1967,6 +2222,7 @@
 
     <!-- http://www.semanticweb.org/usuario/ontologies/2024/2/taon#lexicalFormEvaluatorEN -->
 
+
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/usuario/ontologies/2024/2/taon#lexicalFormEvaluatorEN">
         <rdf:type rdf:resource="http://www.w3.org/ns/lemon/ontolex#Form"/>
         <ontolex:writtenRep xml:lang="en">Evaluator</ontolex:writtenRep>
@@ -1975,6 +2231,7 @@
 
 
     <!-- http://www.semanticweb.org/usuario/ontologies/2024/2/taon#lexicalFormEvaluatorES -->
+
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/usuario/ontologies/2024/2/taon#lexicalFormEvaluatorES">
         <rdf:type rdf:resource="http://www.w3.org/ns/lemon/ontolex#Form"/>
@@ -1985,6 +2242,7 @@
 
     <!-- http://www.semanticweb.org/usuario/ontologies/2024/2/taon#lexicalFormProducerEN -->
 
+
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/usuario/ontologies/2024/2/taon#lexicalFormProducerEN">
         <rdf:type rdf:resource="http://www.w3.org/ns/lemon/ontolex#Form"/>
         <ontolex:writtenRep xml:lang="en">Producer</ontolex:writtenRep>
@@ -1994,6 +2252,7 @@
 
     <!-- http://www.semanticweb.org/usuario/ontologies/2024/2/taon#lexicalFormProducerES -->
 
+
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/usuario/ontologies/2024/2/taon#lexicalFormProducerES">
         <rdf:type rdf:resource="http://www.w3.org/ns/lemon/ontolex#Form"/>
         <ontolex:writtenRep xml:lang="es">Productor</ontolex:writtenRep>
@@ -2002,6 +2261,7 @@
 
 
     <!-- http://www.semanticweb.org/usuario/ontologies/2024/2/taon#lexicalFormTastingEN -->
+
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/usuario/ontologies/2024/2/taon#lexicalFormTastingEN">
         <rdf:type rdf:resource="http://www.w3.org/ns/lemon/ontolex#Form"/>
@@ -2013,6 +2273,7 @@
 
     <!-- http://www.semanticweb.org/usuario/ontologies/2024/2/taon#lexicalFormTastingES -->
 
+
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/usuario/ontologies/2024/2/taon#lexicalFormTastingES">
         <rdf:type rdf:resource="http://www.w3.org/ns/lemon/ontolex#Form"/>
         <ontolex:writtenRep xml:lang="es">Cata</ontolex:writtenRep>
@@ -2023,6 +2284,7 @@
 
     <!-- http://www.semanticweb.org/usuario/ontologies/2024/2/taon#lexicalFormTastingEventEN -->
 
+
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/usuario/ontologies/2024/2/taon#lexicalFormTastingEventEN">
         <rdf:type rdf:resource="http://www.w3.org/ns/lemon/ontolex#Form"/>
         <ontolex:writtenRep xml:lang="en">Tasting Event</ontolex:writtenRep>
@@ -2031,6 +2293,7 @@
 
 
     <!-- http://www.semanticweb.org/usuario/ontologies/2024/2/taon#lexicalFormTastingEventES -->
+
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/usuario/ontologies/2024/2/taon#lexicalFormTastingEventES">
         <rdf:type rdf:resource="http://www.w3.org/ns/lemon/ontolex#Form"/>
@@ -2041,6 +2304,7 @@
 
     <!-- http://www.semanticweb.org/usuario/ontologies/2024/2/taon#lexicalSenseEvaluatorEN -->
 
+
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/usuario/ontologies/2024/2/taon#lexicalSenseEvaluatorEN">
         <rdf:type rdf:resource="http://www.w3.org/ns/lemon/ontolex#LexicalSense"/>
         <ontolex:reference rdf:resource="http://www.semanticweb.org/usuario/ontologies/2024/2/taon#evaluatorConcept"/>
@@ -2049,6 +2313,7 @@
 
 
     <!-- http://www.semanticweb.org/usuario/ontologies/2024/2/taon#lexicalSenseEvaluatorES -->
+
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/usuario/ontologies/2024/2/taon#lexicalSenseEvaluatorES">
         <rdf:type rdf:resource="http://www.w3.org/ns/lemon/ontolex#LexicalSense"/>
@@ -2059,6 +2324,7 @@
 
     <!-- http://www.semanticweb.org/usuario/ontologies/2024/2/taon#lexicalSenseProducerEN -->
 
+
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/usuario/ontologies/2024/2/taon#lexicalSenseProducerEN">
         <rdf:type rdf:resource="http://www.w3.org/ns/lemon/ontolex#LexicalSense"/>
         <ontolex:reference rdf:resource="http://www.semanticweb.org/usuario/ontologies/2024/2/taon#producerConcept"/>
@@ -2067,6 +2333,7 @@
 
 
     <!-- http://www.semanticweb.org/usuario/ontologies/2024/2/taon#lexicalSenseProducerES -->
+
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/usuario/ontologies/2024/2/taon#lexicalSenseProducerES">
         <rdf:type rdf:resource="http://www.w3.org/ns/lemon/ontolex#LexicalSense"/>
@@ -2077,6 +2344,7 @@
 
     <!-- http://www.semanticweb.org/usuario/ontologies/2024/2/taon#lexicalSenseTastingEN -->
 
+
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/usuario/ontologies/2024/2/taon#lexicalSenseTastingEN">
         <rdf:type rdf:resource="http://www.w3.org/ns/lemon/ontolex#LexicalSense"/>
         <ontolex:reference rdf:resource="http://www.semanticweb.org/usuario/ontologies/2024/2/taon#tastingConcept"/>
@@ -2085,6 +2353,7 @@
 
 
     <!-- http://www.semanticweb.org/usuario/ontologies/2024/2/taon#lexicalSenseTastingES -->
+
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/usuario/ontologies/2024/2/taon#lexicalSenseTastingES">
         <rdf:type rdf:resource="http://www.w3.org/ns/lemon/ontolex#LexicalSense"/>
@@ -2095,6 +2364,7 @@
 
     <!-- http://www.semanticweb.org/usuario/ontologies/2024/2/taon#lexicalSenseTastingEventEN -->
 
+
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/usuario/ontologies/2024/2/taon#lexicalSenseTastingEventEN">
         <rdf:type rdf:resource="http://www.w3.org/ns/lemon/ontolex#LexicalSense"/>
         <ontolex:reference rdf:resource="http://www.semanticweb.org/usuario/ontologies/2024/2/taon#tastingEventConcept"/>
@@ -2103,6 +2373,7 @@
 
 
     <!-- http://www.semanticweb.org/usuario/ontologies/2024/2/taon#lexicalSenseTastingEventES -->
+
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/usuario/ontologies/2024/2/taon#lexicalSenseTastingEventES">
         <rdf:type rdf:resource="http://www.w3.org/ns/lemon/ontolex#LexicalSense"/>
@@ -2113,6 +2384,7 @@
 
     <!-- http://www.semanticweb.org/usuario/ontologies/2024/2/taon#producerConcept -->
 
+
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/usuario/ontologies/2024/2/taon#producerConcept">
         <rdf:type rdf:resource="http://www.semanticweb.org/usuario/ontologies/2024/2/taon#Producer"/>
     </owl:NamedIndividual>
@@ -2120,6 +2392,7 @@
 
 
     <!-- http://www.semanticweb.org/usuario/ontologies/2024/2/taon#tastingConcept -->
+
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/usuario/ontologies/2024/2/taon#tastingConcept">
         <rdf:type rdf:resource="http://www.semanticweb.org/usuario/ontologies/2024/2/taon#Tasting"/>
@@ -2129,6 +2402,7 @@
 
     <!-- http://www.semanticweb.org/usuario/ontologies/2024/2/taon#tastingEventConcept -->
 
+
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/usuario/ontologies/2024/2/taon#tastingEventConcept">
         <rdf:type rdf:resource="http://www.semanticweb.org/usuario/ontologies/2024/2/taon#TastingEvent"/>
     </owl:NamedIndividual>
@@ -2136,6 +2410,7 @@
 
 
     <!-- http://www.semanticweb.org/usuario/ontologies/2024/2/taon#translationEvaluator -->
+
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/usuario/ontologies/2024/2/taon#translationEvaluator">
         <rdf:type rdf:resource="http://www.w3.org/ns/lemon/vartrans#Translation"/>
@@ -2148,6 +2423,7 @@
 
     <!-- http://www.semanticweb.org/usuario/ontologies/2024/2/taon#translationProducer -->
 
+
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/usuario/ontologies/2024/2/taon#translationProducer">
         <rdf:type rdf:resource="http://www.w3.org/ns/lemon/vartrans#Translation"/>
         <vartrans:source rdf:resource="http://www.semanticweb.org/usuario/ontologies/2024/2/taon#lexicalSenseProducerES"/>
@@ -2158,6 +2434,7 @@
 
 
     <!-- http://www.semanticweb.org/usuario/ontologies/2024/2/taon#translationTasting -->
+
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/usuario/ontologies/2024/2/taon#translationTasting">
         <rdf:type rdf:resource="http://www.w3.org/ns/lemon/vartrans#Translation"/>
@@ -2170,6 +2447,7 @@
 
     <!-- http://www.semanticweb.org/usuario/ontologies/2024/2/taon#translationTastingEvent -->
 
+
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/usuario/ontologies/2024/2/taon#translationTastingEvent">
         <rdf:type rdf:resource="http://www.w3.org/ns/lemon/vartrans#Translation"/>
         <vartrans:source rdf:resource="http://www.semanticweb.org/usuario/ontologies/2024/2/taon#lexicalSenseTastingEventES"/>
@@ -2181,11 +2459,13 @@
 
     <!-- http://www.w3.org/ns/lemon/ontolex -->
 
+
     <owl:NamedIndividual rdf:about="http://www.w3.org/ns/lemon/ontolex"/>
     
 
 
     <!-- http://www.w3.org/ns/lemon/vartrans -->
+
 
     <owl:NamedIndividual rdf:about="http://www.w3.org/ns/lemon/vartrans"/>
     
@@ -2198,6 +2478,7 @@
     //
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
+
 
     <rdf:Description rdf:about="http://purl.org/dc/terms/Agent">
         <terms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2008-01-14</terms:issued>
@@ -2804,5 +3085,6 @@
 
 
 
-<!-- Generated by the OWL API (version 4.5.26.2023-07-17T20:34:13Z) https://github.com/owlcs/owlapi -->
+<!-- Generated by the OWL API (version 5.1.18) https://github.com/owlcs/owlapi/ -->
+
 

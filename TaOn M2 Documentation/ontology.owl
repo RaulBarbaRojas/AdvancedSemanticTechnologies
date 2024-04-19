@@ -1,24 +1,43 @@
 <?xml version="1.0"?>
-<rdf:RDF xmlns="http://www.semanticweb.org/usuario/ontologies/2024/3/untitled-ontology-27/"
-     xml:base="http://www.semanticweb.org/usuario/ontologies/2024/3/untitled-ontology-27/"
-     xmlns:dc="http://purl.org/dc/elements/1.1/"
+<rdf:RDF xmlns="http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#"
+     xml:base="http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd"
      xmlns:ns="http://creativecommons.org/ns#"
-     xmlns:ns1="http://www.w3.org/2003/06/sw-vocab-status/ns#"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-     xmlns:wot="http://xmlns.com/wot/0.1/"
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:dcam="http://purl.org/dc/dcam/"
-     xmlns:foaf="http://xmlns.com/foaf/0.1/"
-     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-     xmlns:vann="http://purl.org/vocab/vann/"
-     xmlns:terms="http://purl.org/dc/terms/"
-     xmlns:vartrans="http://www.w3.org/ns/lemon/vartrans#">
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
     <owl:Ontology rdf:about="http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd">
         <owl:imports rdf:resource="http://www.semanticweb.org/usuario/ontologies/2024/2/taon"/>
         <ns:license xml:lang="en">This work is licensed under the Creative Commons Attribution 4.0 International License. To view a copy of this license, visit http://creativecommons.org/licenses/by/4.0/ or send a letter to Creative Commons, PO Box 1866, Mountain View, CA 94042, USA.</ns:license>
     </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://creativecommons.org/ns#license -->
+
+
+    <owl:AnnotationProperty rdf:about="http://creativecommons.org/ns#license"/>
+    
+
+
+    <!-- http://purl.org/dc/dcam/rangeIncludes -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/dcam/rangeIncludes"/>
     
 
 
@@ -30,10 +49,12 @@
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 
+
     
 
 
     <!-- http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#contains -->
+
 
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#contains">
         <rdfs:domain rdf:resource="http://www.semanticweb.org/usuario/ontologies/2024/2/taon#Tasting"/>
@@ -54,10 +75,12 @@
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 
+
     
 
 
     <!-- http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#acidity -->
+
 
     <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#acidity">
         <rdfs:domain rdf:resource="http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#Coffee"/>
@@ -72,6 +95,7 @@
 
     <!-- http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#alcoholDegree -->
 
+
     <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#alcoholDegree">
         <rdfs:domain rdf:resource="http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#Beverage"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
@@ -84,6 +108,7 @@
 
 
     <!-- http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#aroma -->
+
 
     <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#aroma">
         <rdfs:domain rdf:resource="http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#Beverage"/>
@@ -98,6 +123,7 @@
 
     <!-- http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#body -->
 
+
     <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#body">
         <rdfs:domain rdf:resource="http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#Beverage"/>
         <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
@@ -110,6 +136,7 @@
 
 
     <!-- http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#caffeineContent -->
+
 
     <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#caffeineContent">
         <rdfs:domain rdf:resource="http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#Coffee"/>
@@ -124,6 +151,7 @@
 
     <!-- http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#cocoaPercentage -->
 
+
     <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#cocoaPercentage">
         <rdfs:domain rdf:resource="http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#Chocolate"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
@@ -136,6 +164,7 @@
 
 
     <!-- http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#colour -->
+
 
     <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#colour">
         <rdfs:domain rdf:resource="http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#Wine"/>
@@ -150,6 +179,7 @@
 
     <!-- http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#detailedColor -->
 
+
     <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#detailedColor">
         <rdfs:domain rdf:resource="http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#Chocolate"/>
         <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
@@ -162,6 +192,7 @@
 
 
     <!-- http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#fatContent -->
+
 
     <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#fatContent">
         <rdfs:domain rdf:resource="http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#Cheese"/>
@@ -176,6 +207,7 @@
 
     <!-- http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#flavour -->
 
+
     <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#flavour">
         <rdfs:domain rdf:resource="http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#Beer"/>
         <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
@@ -188,6 +220,7 @@
 
 
     <!-- http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#humidityPercentage -->
+
 
     <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#humidityPercentage">
         <rdfs:domain rdf:resource="http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#Cheese"/>
@@ -202,6 +235,7 @@
 
     <!-- http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#processMethod -->
 
+
     <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#processMethod">
         <rdfs:domain rdf:resource="http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#Tea"/>
         <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
@@ -215,6 +249,7 @@
 
     <!-- http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#productionYear -->
 
+
     <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#productionYear">
         <rdfs:domain rdf:resource="http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#Product"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
@@ -227,6 +262,7 @@
 
 
     <!-- http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#taninos -->
+
 
     <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#taninos">
         <rdfs:domain rdf:resource="http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#Wine"/>
@@ -247,10 +283,19 @@
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 
+
+    
+
+
+    <!-- http://www.semanticweb.org/usuario/ontologies/2024/2/taon#Tasting -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/usuario/ontologies/2024/2/taon#Tasting"/>
     
 
 
     <!-- http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#AbbeyBeer -->
+
 
     <owl:Class rdf:about="http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#AbbeyBeer">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#Beer"/>
@@ -264,6 +309,7 @@
 
     <!-- http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#AleBeer -->
 
+
     <owl:Class rdf:about="http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#AleBeer">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#Beer"/>
         <rdfs:comment xml:lang="en">A class that represents the concept of Ale beer in the tasting domain</rdfs:comment>
@@ -275,6 +321,7 @@
 
 
     <!-- http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#Beer -->
+
 
     <owl:Class rdf:about="http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#Beer">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#Beverage"/>
@@ -288,6 +335,7 @@
 
     <!-- http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#Beverage -->
 
+
     <owl:Class rdf:about="http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#Beverage">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#Product"/>
         <rdfs:comment xml:lang="en">A class that represents beverage-related products involved in a tasting event, like wine or tea.</rdfs:comment>
@@ -299,6 +347,7 @@
 
 
     <!-- http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#BlackTea -->
+
 
     <owl:Class rdf:about="http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#BlackTea">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#Tea"/>
@@ -312,6 +361,7 @@
 
     <!-- http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#BlueCheese -->
 
+
     <owl:Class rdf:about="http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#BlueCheese">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#Cheese"/>
     </owl:Class>
@@ -319,6 +369,7 @@
 
 
     <!-- http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#Cheese -->
+
 
     <owl:Class rdf:about="http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#Cheese">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#Food"/>
@@ -328,6 +379,7 @@
 
     <!-- http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#Chocolate -->
 
+
     <owl:Class rdf:about="http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#Chocolate">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#Food"/>
     </owl:Class>
@@ -335,6 +387,7 @@
 
 
     <!-- http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#Coffee -->
+
 
     <owl:Class rdf:about="http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#Coffee">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#Beverage"/>
@@ -348,6 +401,7 @@
 
     <!-- http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#DarkBeer -->
 
+
     <owl:Class rdf:about="http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#DarkBeer">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#Beer"/>
         <rdfs:comment xml:lang="en">A class that represents the concept of dark beer in the tasting domain</rdfs:comment>
@@ -359,6 +413,7 @@
 
 
     <!-- http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#DarkChocolate -->
+
 
     <owl:Class rdf:about="http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#DarkChocolate">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#Chocolate"/>
@@ -372,6 +427,7 @@
 
     <!-- http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#Food -->
 
+
     <owl:Class rdf:about="http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#Food">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#Product"/>
         <rdfs:comment xml:lang="en">A class that represents food-related products involved in tasting events, like cheese and chocolate.</rdfs:comment>
@@ -383,6 +439,7 @@
 
 
     <!-- http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#FortifiedWine -->
+
 
     <owl:Class rdf:about="http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#FortifiedWine">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#Wine"/>
@@ -396,6 +453,7 @@
 
     <!-- http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#FreshCheese -->
 
+
     <owl:Class rdf:about="http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#FreshCheese">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#Cheese"/>
     </owl:Class>
@@ -403,6 +461,7 @@
 
 
     <!-- http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#GreenCoffee -->
+
 
     <owl:Class rdf:about="http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#GreenCoffee">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#Coffee"/>
@@ -416,6 +475,7 @@
 
     <!-- http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#GreenTea -->
 
+
     <owl:Class rdf:about="http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#GreenTea">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#Tea"/>
         <rdfs:comment xml:lang="en">A class that represents the concept of green tea in the tasting domain</rdfs:comment>
@@ -428,6 +488,7 @@
 
     <!-- http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#HardCheese -->
 
+
     <owl:Class rdf:about="http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#HardCheese">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#Cheese"/>
     </owl:Class>
@@ -435,6 +496,7 @@
 
 
     <!-- http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#LagerBeer -->
+
 
     <owl:Class rdf:about="http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#LagerBeer">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#Beer"/>
@@ -448,6 +510,7 @@
 
     <!-- http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#MilkChocolate -->
 
+
     <owl:Class rdf:about="http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#MilkChocolate">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#Chocolate"/>
         <rdfs:comment xml:lang="en">A class that represents the concept of milk chocolate in the tasting domain</rdfs:comment>
@@ -459,6 +522,7 @@
 
 
     <!-- http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#OolongTea -->
+
 
     <owl:Class rdf:about="http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#OolongTea">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#Tea"/>
@@ -472,6 +536,7 @@
 
     <!-- http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#Product -->
 
+
     <owl:Class rdf:about="http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#Product">
         <rdfs:comment xml:lang="en">A class to represent the concept of a product that is involved in a tasting (like wine or cheese).</rdfs:comment>
         <rdfs:comment xml:lang="es">Una clase que representa el producto implicado en una cata (como el vino y el queso).</rdfs:comment>
@@ -482,6 +547,7 @@
 
 
     <!-- http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#RedTea -->
+
 
     <owl:Class rdf:about="http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#RedTea">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#Tea"/>
@@ -495,6 +561,7 @@
 
     <!-- http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#RedWine -->
 
+
     <owl:Class rdf:about="http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#RedWine">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#Wine"/>
         <rdfs:comment xml:lang="en">A class that represents the concept of red wine in the tasting domain</rdfs:comment>
@@ -506,6 +573,7 @@
 
 
     <!-- http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#RoastedCoffee -->
+
 
     <owl:Class rdf:about="http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#RoastedCoffee">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#Coffee"/>
@@ -519,6 +587,7 @@
 
     <!-- http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#RoseWine -->
 
+
     <owl:Class rdf:about="http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#RoseWine">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#Wine"/>
         <rdfs:comment xml:lang="en">A class that represents the concept of rose wine in the tasting domain</rdfs:comment>
@@ -531,6 +600,7 @@
 
     <!-- http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#SemiSoftCheese -->
 
+
     <owl:Class rdf:about="http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#SemiSoftCheese">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#Cheese"/>
     </owl:Class>
@@ -539,6 +609,7 @@
 
     <!-- http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#SoftCheese -->
 
+
     <owl:Class rdf:about="http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#SoftCheese">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#Cheese"/>
     </owl:Class>
@@ -546,6 +617,7 @@
 
 
     <!-- http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#SparklingWine -->
+
 
     <owl:Class rdf:about="http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#SparklingWine">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#Wine"/>
@@ -559,6 +631,7 @@
 
     <!-- http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#SweetWine -->
 
+
     <owl:Class rdf:about="http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#SweetWine">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#Wine"/>
         <rdfs:comment xml:lang="en">A class that represents the concept of sweet wine in the tasting domain</rdfs:comment>
@@ -570,6 +643,7 @@
 
 
     <!-- http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#Tea -->
+
 
     <owl:Class rdf:about="http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#Tea">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#Beverage"/>
@@ -583,6 +657,7 @@
 
     <!-- http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#WhiteChocolate -->
 
+
     <owl:Class rdf:about="http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#WhiteChocolate">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#Chocolate"/>
         <rdfs:comment xml:lang="en">A class that represents the concept of white chocolate in the tasting domain</rdfs:comment>
@@ -594,6 +669,7 @@
 
 
     <!-- http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#WhiteTea -->
+
 
     <owl:Class rdf:about="http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#WhiteTea">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#Tea"/>
@@ -607,6 +683,7 @@
 
     <!-- http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#WhiteWine -->
 
+
     <owl:Class rdf:about="http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#WhiteWine">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#Wine"/>
         <rdfs:comment xml:lang="en">A class that represents the concept of white wine in the tasting domain</rdfs:comment>
@@ -618,6 +695,7 @@
 
 
     <!-- http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#Wine -->
+
 
     <owl:Class rdf:about="http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#Wine">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#Beverage"/>
@@ -631,6 +709,7 @@
 
     <!-- http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#YellowTea -->
 
+
     <owl:Class rdf:about="http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#YellowTea">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/usuario/ontologies/2024/2/taonProd#Tea"/>
         <dcam:rangeIncludes xml:lang="es">Una clase que representa el concepto de té amarillo en el dominio de las catas</dcam:rangeIncludes>
@@ -642,5 +721,6 @@
 
 
 
-<!-- Generated by the OWL API (version 4.5.26.2023-07-17T20:34:13Z) https://github.com/owlcs/owlapi -->
+<!-- Generated by the OWL API (version 5.1.18) https://github.com/owlcs/owlapi/ -->
+
 
