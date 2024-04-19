@@ -1,2 +1,3 @@
-# AdvancedSemanticTechnologies
-A repository containing the ontology developed for the course "Advanced Semantic Technologies".
+# Tecnologías Semánticas Avanzadas
+
+Bienvenid@ al repositorio de la asignatura "Tecnologías Semánticas Avanzadas". Concretamente, aquí encontrarás las versiones finales de los módulos que componen la red de ontologías desarrolladas en el dominio de las catas (Ontología TaOn). Asimismo, también puedes encontrar documentación generada automáticamente a través de la herramienta [Widoco](https://github.com/dgarijo/Widoco), en las carpetas referidas a documentación (el fichero "index_en.html" puede ser utilizado para visualizar esta documentación a través de un navegador web, como Google Chrome o Mozilla Firefox (los dos que han sido probados en este desarrollo).
